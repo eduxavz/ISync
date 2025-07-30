@@ -21,25 +21,25 @@ namespace ISync.Forms
 
         private void novaNotaFiscalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Digitacao nfe = new Digitacao();
+            Digitacao nfe = new();
             nfe.ShowDialog();
         }
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cadastro cadastro = new Cadastro();
+            Cadastro cadastro = new();
             cadastro.ShowDialog();
         }
 
         private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Produtos prod = new Produtos();
+            Produtos prod = new();
             prod.ShowDialog();
         }
 
         private void naturezaDeOperaçãoToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            NaturezaOperacao natureza = new NaturezaOperacao();
+            NaturezaOperacao natureza = new();
             natureza.ShowDialog();
         }
     }

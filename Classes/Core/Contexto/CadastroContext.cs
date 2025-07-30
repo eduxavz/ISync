@@ -1,16 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ISync.Entidades.Cadastro;
+using ISync.Entidades.Cadastros;
+using Microsoft.EntityFrameworkCore;
 
 namespace ISync.Classes.Core.Contexto
 {
     public class CadastroContext: DbContext
     {
-        public DbSet<tbCadastroDados> Cadastros { get; set; }
+        public DbSet<tbCadastroDados> CadastroDados { get; set; }
+        public DbSet<tbEmpresaDados> EmpresaDados { get; set; }
+        public DbSet<tbNaturezaOperacao> NaturezaOperacao { get; set; }
+        public DbSet<tbProdutoDados> ProdutoDados { get; set; }
+        public DbSet<tbCadastroDados> ProdutoImpostos { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
@@ -20,7 +21,10 @@ namespace ISync.Classes.Core.Contexto
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<tbCadastroDados>().ToTable("tbCadastroDados");
-            // você pode configurar colunas aqui se quiser com .Property(x => x.Nome).HasMaxLength(100);
+            modelBuilder.Entity<tbEmpresaDados>().ToTable("tbEmpresaDados");
+            modelBuilder.Entity<tbNaturezaOperacao>().ToTable("tbNaturezaOperacao");
+            modelBuilder.Entity<tbProdutoDados>().ToTable("tbProdutoDados");
+            modelBuilder.Entity<tbProdutoImpostos>().ToTable("tbProdutoImpostos");
         }
     }
 }
