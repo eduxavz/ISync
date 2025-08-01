@@ -1,5 +1,4 @@
-﻿using ISync.Entidades.Cadastro;
-using ISync.Entidades.Cadastros;
+﻿using ISync.Entidades.Cadastros;
 using Microsoft.EntityFrameworkCore;
 
 namespace ISync.Classes.Core.Contexto

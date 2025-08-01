@@ -28,120 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notaFiscalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notaFiscalDeSaídaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.novaNotaFiscalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultarNotasFiscaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.naturezaDeOperaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            menuStrip1 = new MenuStrip();
+            cadastrosToolStripMenuItem = new ToolStripMenuItem();
+            clientesToolStripMenuItem = new ToolStripMenuItem();
+            produtosToolStripMenuItem = new ToolStripMenuItem();
+            naturezaDeOperaçãoToolStripMenuItem = new ToolStripMenuItem();
+            notaFiscalToolStripMenuItem = new ToolStripMenuItem();
+            notaFiscalDeSaídaToolStripMenuItem = new ToolStripMenuItem();
+            novaNotaFiscalToolStripMenuItem = new ToolStripMenuItem();
+            consultarNotasFiscaisToolStripMenuItem = new ToolStripMenuItem();
+            configuraçõesToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            financeiroToolStripMenuItem = new ToolStripMenuItem();
+            contasÀPagarToolStripMenuItem = new ToolStripMenuItem();
+            contasÀReceberToolStripMenuItem = new ToolStripMenuItem();
+            pDVToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrosToolStripMenuItem,
-            this.notaFiscalToolStripMenuItem,
-            this.configuraçõesToolStripMenuItem,
-            this.sairToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.Items.AddRange(new ToolStripItem[] { cadastrosToolStripMenuItem, financeiroToolStripMenuItem, notaFiscalToolStripMenuItem, configuraçõesToolStripMenuItem, pDVToolStripMenuItem, sairToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Padding = new Padding(7, 2, 0, 2);
+            menuStrip1.Size = new Size(933, 24);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
             // 
             // cadastrosToolStripMenuItem
             // 
-            this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem,
-            this.produtosToolStripMenuItem,
-            this.naturezaDeOperaçãoToolStripMenuItem});
-            this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.cadastrosToolStripMenuItem.Text = "Cadastros";
+            cadastrosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem, produtosToolStripMenuItem, naturezaDeOperaçãoToolStripMenuItem });
+            cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
+            cadastrosToolStripMenuItem.Size = new Size(71, 20);
+            cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
             // clientesToolStripMenuItem
             // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            clientesToolStripMenuItem.Size = new Size(191, 22);
+            clientesToolStripMenuItem.Text = "Clientes";
+            clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
             // produtosToolStripMenuItem
             // 
-            this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.produtosToolStripMenuItem.Text = "Produtos";
-            this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
-            // 
-            // notaFiscalToolStripMenuItem
-            // 
-            this.notaFiscalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.notaFiscalDeSaídaToolStripMenuItem});
-            this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
-            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
-            // 
-            // notaFiscalDeSaídaToolStripMenuItem
-            // 
-            this.notaFiscalDeSaídaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novaNotaFiscalToolStripMenuItem,
-            this.consultarNotasFiscaisToolStripMenuItem});
-            this.notaFiscalDeSaídaToolStripMenuItem.Name = "notaFiscalDeSaídaToolStripMenuItem";
-            this.notaFiscalDeSaídaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.notaFiscalDeSaídaToolStripMenuItem.Text = "Nota Fiscal";
-            // 
-            // novaNotaFiscalToolStripMenuItem
-            // 
-            this.novaNotaFiscalToolStripMenuItem.Name = "novaNotaFiscalToolStripMenuItem";
-            this.novaNotaFiscalToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.novaNotaFiscalToolStripMenuItem.Text = "Digitar nova NF-e";
-            this.novaNotaFiscalToolStripMenuItem.Click += new System.EventHandler(this.novaNotaFiscalToolStripMenuItem_Click);
-            // 
-            // consultarNotasFiscaisToolStripMenuItem
-            // 
-            this.consultarNotasFiscaisToolStripMenuItem.Name = "consultarNotasFiscaisToolStripMenuItem";
-            this.consultarNotasFiscaisToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.consultarNotasFiscaisToolStripMenuItem.Text = "Consultar notas fiscais";
-            // 
-            // configuraçõesToolStripMenuItem
-            // 
-            this.configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
-            this.configuraçõesToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.configuraçõesToolStripMenuItem.Text = "Configurações";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
+            produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
+            produtosToolStripMenuItem.Size = new Size(191, 22);
+            produtosToolStripMenuItem.Text = "Produtos";
+            produtosToolStripMenuItem.Click += produtosToolStripMenuItem_Click;
             // 
             // naturezaDeOperaçãoToolStripMenuItem
             // 
-            this.naturezaDeOperaçãoToolStripMenuItem.Name = "naturezaDeOperaçãoToolStripMenuItem";
-            this.naturezaDeOperaçãoToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.naturezaDeOperaçãoToolStripMenuItem.Text = "Natureza de Operação";
-            this.naturezaDeOperaçãoToolStripMenuItem.Click += new System.EventHandler(this.naturezaDeOperaçãoToolStripMenuItem_Click_1);
+            naturezaDeOperaçãoToolStripMenuItem.Name = "naturezaDeOperaçãoToolStripMenuItem";
+            naturezaDeOperaçãoToolStripMenuItem.Size = new Size(191, 22);
+            naturezaDeOperaçãoToolStripMenuItem.Text = "Natureza de Operação";
+            naturezaDeOperaçãoToolStripMenuItem.Click += naturezaDeOperaçãoToolStripMenuItem_Click_1;
+            // 
+            // notaFiscalToolStripMenuItem
+            // 
+            notaFiscalToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { notaFiscalDeSaídaToolStripMenuItem });
+            notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
+            notaFiscalToolStripMenuItem.Size = new Size(77, 20);
+            notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
+            // 
+            // notaFiscalDeSaídaToolStripMenuItem
+            // 
+            notaFiscalDeSaídaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { novaNotaFiscalToolStripMenuItem, consultarNotasFiscaisToolStripMenuItem });
+            notaFiscalDeSaídaToolStripMenuItem.Name = "notaFiscalDeSaídaToolStripMenuItem";
+            notaFiscalDeSaídaToolStripMenuItem.Size = new Size(180, 22);
+            notaFiscalDeSaídaToolStripMenuItem.Text = "Nota Fiscal";
+            // 
+            // novaNotaFiscalToolStripMenuItem
+            // 
+            novaNotaFiscalToolStripMenuItem.Name = "novaNotaFiscalToolStripMenuItem";
+            novaNotaFiscalToolStripMenuItem.Size = new Size(192, 22);
+            novaNotaFiscalToolStripMenuItem.Text = "Digitar nova NF-e";
+            novaNotaFiscalToolStripMenuItem.Click += novaNotaFiscalToolStripMenuItem_Click;
+            // 
+            // consultarNotasFiscaisToolStripMenuItem
+            // 
+            consultarNotasFiscaisToolStripMenuItem.Name = "consultarNotasFiscaisToolStripMenuItem";
+            consultarNotasFiscaisToolStripMenuItem.Size = new Size(192, 22);
+            consultarNotasFiscaisToolStripMenuItem.Text = "Consultar notas fiscais";
+            // 
+            // configuraçõesToolStripMenuItem
+            // 
+            configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
+            configuraçõesToolStripMenuItem.Size = new Size(96, 20);
+            configuraçõesToolStripMenuItem.Text = "Configurações";
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(38, 20);
+            sairToolStripMenuItem.Text = "Sair";
+            // 
+            // financeiroToolStripMenuItem
+            // 
+            financeiroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { contasÀPagarToolStripMenuItem, contasÀReceberToolStripMenuItem });
+            financeiroToolStripMenuItem.Name = "financeiroToolStripMenuItem";
+            financeiroToolStripMenuItem.Size = new Size(74, 20);
+            financeiroToolStripMenuItem.Text = "Financeiro";
+            // 
+            // contasÀPagarToolStripMenuItem
+            // 
+            contasÀPagarToolStripMenuItem.Name = "contasÀPagarToolStripMenuItem";
+            contasÀPagarToolStripMenuItem.Size = new Size(180, 22);
+            contasÀPagarToolStripMenuItem.Text = "Contas à pagar";
+            // 
+            // contasÀReceberToolStripMenuItem
+            // 
+            contasÀReceberToolStripMenuItem.Name = "contasÀReceberToolStripMenuItem";
+            contasÀReceberToolStripMenuItem.Size = new Size(180, 22);
+            contasÀReceberToolStripMenuItem.Text = "Contas à receber";
+            // 
+            // pDVToolStripMenuItem
+            // 
+            pDVToolStripMenuItem.Name = "pDVToolStripMenuItem";
+            pDVToolStripMenuItem.Size = new Size(41, 20);
+            pDVToolStripMenuItem.Text = "PDV";
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Inicio";
-            this.Text = "Inicio";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(933, 519);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "Inicio";
+            Text = "Inicio";
+            WindowState = FormWindowState.Maximized;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
@@ -158,5 +179,9 @@
         private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem naturezaDeOperaçãoToolStripMenuItem;
+        private ToolStripMenuItem financeiroToolStripMenuItem;
+        private ToolStripMenuItem contasÀPagarToolStripMenuItem;
+        private ToolStripMenuItem contasÀReceberToolStripMenuItem;
+        private ToolStripMenuItem pDVToolStripMenuItem;
     }
 }
