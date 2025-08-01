@@ -1,4 +1,5 @@
-﻿using ISync.Classes.Core.Enums;
+﻿using ISync.Classes;
+using ISync.Classes.Core.Enums;
 using System;
 using System.Text.Json.Serialization;
 

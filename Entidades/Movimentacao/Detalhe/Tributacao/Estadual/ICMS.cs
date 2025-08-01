@@ -1,4 +1,5 @@
-﻿using ISync.Classes.Core.Enums.Movimentacao;
+﻿using ISync.Classes;
+using ISync.Classes.Core.Enums.Movimentacao;
 using ISync.Entidades.Movimentacao.Detalhe;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;

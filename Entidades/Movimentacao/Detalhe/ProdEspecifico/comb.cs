@@ -1,4 +1,5 @@
-﻿using ISync.Entidades.Movimentacao.Detalhe;
+﻿using ISync.Classes;
+using ISync.Entidades.Movimentacao.Detalhe;
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;

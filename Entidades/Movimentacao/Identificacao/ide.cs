@@ -12,6 +12,7 @@ using ISync.Entidades.Movimentacao.Pagamento;
 using ISync.Entidades.Movimentacao.RespTecnico;
 using ISync.Entidades.Movimentacao.Total;
 using ISync.Entidades.Movimentacao.Transporte;
+using ISync.Classes;
 
 namespace ISync.Entidades.Movimentacao.Identificacao
 {

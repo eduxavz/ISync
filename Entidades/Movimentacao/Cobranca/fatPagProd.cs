@@ -1,4 +1,6 @@
-﻿namespace ISync.Entidades.Movimentacao.Cobranca
+﻿using ISync.Classes;
+
+namespace ISync.Entidades.Movimentacao.Cobranca
 {
     public class FatPagProd : Base
     {

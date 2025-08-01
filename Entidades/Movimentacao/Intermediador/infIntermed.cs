@@ -1,4 +1,5 @@
-﻿using ISync.Entidades.Movimentacao.Identificacao;
+﻿using ISync.Classes;
+using ISync.Entidades.Movimentacao.Identificacao;
 using System;
 
 namespace ISync.Entidades.Movimentacao.Intermediador

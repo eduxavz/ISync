@@ -1,5 +1,4 @@
-﻿using ISync.Entidades.Cadastro;
-using ISync.Entidades.Cadastros;
+﻿using ISync.Entidades.Cadastros;
 using ISync.Entidades.Movimentacao.Cobranca;
 using ISync.Entidades.Movimentacao.Destinatario;
 using ISync.Entidades.Movimentacao.Detalhe;
@@ -72,10 +71,10 @@ namespace ISync.Classes.Core.Contexto
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Ide>().ToTable("tbMovDados");
-            modelBuilder.Entity<tbEmpresaDados>().ToTable("tbEmpresaDados");
-            modelBuilder.Entity<tbNaturezaOperacao>().ToTable("tbNaturezaOperacao");
-            modelBuilder.Entity<tbProdutoDados>().ToTable("tbProdutoDados");
-            modelBuilder.Entity<tbProdutoImpostos>().ToTable("tbProdutoImpostos");
+            modelBuilder.Entity<EmpresaDado>().ToTable("tbEmpresaDados");
+            modelBuilder.Entity<NaturezaOperacao>().ToTable("tbNaturezaOperacao");
+            modelBuilder.Entity<ProdutoDado>().ToTable("tbProdutoDados");
+            modelBuilder.Entity<Imposto>().ToTable("tbProdutoImpostos");
         }
     }
 }

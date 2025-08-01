@@ -1,4 +1,6 @@
-﻿namespace ISync.Entidades.Movimentacao.Detalhe
+﻿using ISync.Classes;
+
+namespace ISync.Entidades.Movimentacao.Detalhe
 {
 
     public enum EnumTpPromocao

@@ -1,15 +1,16 @@
 ﻿using ISync.Entidades.Cadastros;
+using ISync.Entidades.Cadastros.Parceiro;
 using Microsoft.EntityFrameworkCore;
 
 namespace ISync.Classes.Core.Contexto
 {
     public class CadastroContext: DbContext
     {
-        public DbSet<tbCadastroDados> CadastroDados { get; set; }
-        public DbSet<tbEmpresaDados> EmpresaDados { get; set; }
-        public DbSet<tbNaturezaOperacao> NaturezaOperacao { get; set; }
-        public DbSet<tbProdutoDados> ProdutoDados { get; set; }
-        public DbSet<tbCadastroDados> ProdutoImpostos { get; set; }
+        public DbSet<Parceiro> CadastroDados { get; set; }
+        public DbSet<EmpresaDado> EmpresaDados { get; set; }
+        public DbSet<NaturezaOperacao> NaturezaOperacao { get; set; }
+        public DbSet<ProdutoDado> ProdutoDados { get; set; }
+        public DbSet<Parceiro> ProdutoImpostos { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -19,11 +20,11 @@ namespace ISync.Classes.Core.Contexto
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<tbCadastroDados>().ToTable("tbCadastroDados");
-            modelBuilder.Entity<tbEmpresaDados>().ToTable("tbEmpresaDados");
-            modelBuilder.Entity<tbNaturezaOperacao>().ToTable("tbNaturezaOperacao");
-            modelBuilder.Entity<tbProdutoDados>().ToTable("tbProdutoDados");
-            modelBuilder.Entity<tbProdutoImpostos>().ToTable("tbProdutoImpostos");
+            modelBuilder.Entity<Parceiro>().ToTable("tbCadastroDados");
+            modelBuilder.Entity<EmpresaDado>().ToTable("tbEmpresaDados");
+            modelBuilder.Entity<NaturezaOperacao>().ToTable("tbNaturezaOperacao");
+            modelBuilder.Entity<ProdutoDado>().ToTable("tbProdutoDados");
+            modelBuilder.Entity<Imposto>().ToTable("tbProdutoImpostos");
         }
     }
 }

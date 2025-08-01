@@ -1,4 +1,5 @@
 ﻿using Infotech.PDV.Movimentacao.Domain.Entities.Detalhe.Tributacao.Municipal;
+using ISync.Classes;
 using ISync.Entidades.Movimentacao.Detalhe;
 using System;
 using System.Text.Json.Serialization;

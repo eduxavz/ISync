@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISync.Classes;
+using System;
 
 namespace ISync.Entidades.Movimentacao.Transporte
 {

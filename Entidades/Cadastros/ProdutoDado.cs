@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISync.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +8,7 @@ using System.Xml.Serialization;
 
 namespace ISync.Entidades.Cadastros
 {
-    [XmlType("row", Namespace = "ProdutoDados")]
-    public class tbProdutoDados : Base
+    public class ProdutoDado : Base
     {
         public int ImpostoId { get; set; }
         public int Ncm { get; set; }

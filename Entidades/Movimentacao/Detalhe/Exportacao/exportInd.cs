@@ -1,4 +1,6 @@
-﻿namespace ISync.Entidades.Movimentacao.Detalhe.Exportacao
+﻿using ISync.Classes;
+
+namespace ISync.Entidades.Movimentacao.Detalhe.Exportacao
 {
     public class ExportInd : Base
     {

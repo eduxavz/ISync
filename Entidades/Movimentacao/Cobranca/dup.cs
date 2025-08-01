@@ -1,4 +1,5 @@
 ﻿using System;
+using ISync.Classes;
 using ISync.Entidades.Movimentacao.Pagamento;
 
 namespace ISync.Entidades.Movimentacao.Cobranca

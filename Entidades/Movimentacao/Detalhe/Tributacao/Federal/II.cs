@@ -1,4 +1,5 @@
-﻿using ISync.Entidades.Movimentacao.Detalhe;
+﻿using ISync.Classes;
+using ISync.Entidades.Movimentacao.Detalhe;
 using System;
 
 namespace ISync.Entidades.Movimentacao.Detalhe.Tributacao.Federal

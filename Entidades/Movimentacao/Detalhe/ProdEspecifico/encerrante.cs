@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using ISync.Classes;
+using System.Text.Json.Serialization;
 
 namespace ISync.Entidades.Movimentacao.Detalhe.ProdEspecifico
 {

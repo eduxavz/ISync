@@ -1,4 +1,5 @@
-﻿using ISync.Classes.Core.Enums.Movimentacao;
+﻿using ISync.Classes;
+using ISync.Classes.Core.Enums.Movimentacao;
 using ISync.Entidades.Movimentacao.Identificacao;
 using System;
 

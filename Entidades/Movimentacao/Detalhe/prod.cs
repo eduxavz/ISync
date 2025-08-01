@@ -1,4 +1,5 @@
 ﻿using Infotech.PDV.Movimentacao.Domain.Entities.Detalhe;
+using ISync.Classes;
 using ISync.Classes.Core.Enums;
 using ISync.Classes.Core.Utils;
 using ISync.Entidades.Movimentacao.Detalhe.Exportacao;
