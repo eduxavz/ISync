@@ -71,10 +71,40 @@ namespace ISync.Classes.Core.Contexto
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Ide>().ToTable("tbMovDados");
-            modelBuilder.Entity<EmpresaDado>().ToTable("tbEmpresaDados");
-            modelBuilder.Entity<NaturezaOperacao>().ToTable("tbNaturezaOperacao");
-            modelBuilder.Entity<ProdutoDado>().ToTable("tbProdutoDados");
-            modelBuilder.Entity<Imposto>().ToTable("tbProdutoImpostos");
+            modelBuilder.Entity<InfIntermed>().ToTable("tbMovInfIntermed");
+            modelBuilder.Entity<InfRespTec>().ToTable("MovInfRespTecs");
+            modelBuilder.Entity<NFref>().ToTable("MovNFRefs");
+            modelBuilder.Entity<Emit>().ToTable("MovEmits");
+            modelBuilder.Entity<Dest>().ToTable("MovDests");
+            modelBuilder.Entity<Prod>().ToTable("MovProds");
+            modelBuilder.Entity<ICMS>().ToTable("MovProdIcms");
+            modelBuilder.Entity<COFINS>().ToTable("MovProdCofins");
+            modelBuilder.Entity<II>().ToTable("MovProdIis");
+            modelBuilder.Entity<IPI>().ToTable("MovProdIpis");
+            modelBuilder.Entity<PIS>().ToTable("MovProdPis");
+            modelBuilder.Entity<ISSQN>().ToTable("MovProdISSQNs");
+            modelBuilder.Entity<Comb>().ToTable("MovProdCombs");
+            modelBuilder.Entity<OrigComb>().ToTable("MovProdCombOrigCombs");
+            modelBuilder.Entity<Encerrante>().ToTable("MovProdCombEncerrantes");
+            modelBuilder.Entity<DetExport>().ToTable("MovProdDetExports");
+            modelBuilder.Entity<ExportInd>().ToTable("MovProdDetExportInds");
+            modelBuilder.Entity<DI>().ToTable("MovProdDIs");
+            modelBuilder.Entity<Adi>().ToTable("MovProdDIAdis");
+            modelBuilder.Entity<ICMSTot>().ToTable("MovICMSTotais");
+            modelBuilder.Entity<RetTrib>().ToTable("MovRetTribs");
+            modelBuilder.Entity<ISSQNtot>().ToTable("MovISSQNTotais");
+            modelBuilder.Entity<Transp>().ToTable("MovTransps");
+            modelBuilder.Entity<Transporta>().ToTable("MovTransportas");
+            modelBuilder.Entity<RetTransp>().ToTable("MovTranspRets");
+            modelBuilder.Entity<VeicTransp>().ToTable("MovTranspVeics");
+            modelBuilder.Entity<Reboque>().ToTable("MovTranspReboques");
+            modelBuilder.Entity<Vol>().ToTable("MovTranspVols");
+            modelBuilder.Entity<Lacre>().ToTable("MovTranspVolLacres");
+            modelBuilder.Entity<DetPag>().ToTable("MovPagDets");
+            modelBuilder.Entity<Card>().ToTable("MovPagDetCards");
+            modelBuilder.Entity<Dup>().ToTable("MovDups");
+            modelBuilder.Entity<Fat>().ToTable("MovFats");
+            modelBuilder.Entity<RetiradaDocumento>().ToTable("RetiradaDocumentos");
         }
     }
 }
