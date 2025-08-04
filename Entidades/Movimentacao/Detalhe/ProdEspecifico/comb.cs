@@ -71,6 +71,7 @@ namespace ISync.Entidades.Movimentacao.Detalhe.ProdEspecifico
         /// </summary>
         public string UFCons { get; private set; }
 
+        public OrigComb OrigComb { get; private set; }
 
         //EF Relacionamento
         [JsonIgnore]
@@ -98,7 +99,7 @@ namespace ISync.Entidades.Movimentacao.Detalhe.ProdEspecifico
 
         public void AdicionarEncerrante(Encerrante encerrante)
         {
-            if (Encerrantes == null) Encerrantes = new List<Encerrante>();
+            if (Encerrantes == null) Encerrantes = [];
 
             Encerrantes.Add(encerrante);
         }

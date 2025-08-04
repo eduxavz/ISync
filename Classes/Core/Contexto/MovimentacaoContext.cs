@@ -72,39 +72,52 @@ namespace ISync.Classes.Core.Contexto
         {
             modelBuilder.Entity<Ide>().ToTable("tbMovDados");
             modelBuilder.Entity<InfIntermed>().ToTable("tbMovInfIntermed");
-            modelBuilder.Entity<InfRespTec>().ToTable("MovInfRespTecs");
-            modelBuilder.Entity<NFref>().ToTable("MovNFRefs");
-            modelBuilder.Entity<Emit>().ToTable("MovEmits");
-            modelBuilder.Entity<Dest>().ToTable("MovDests");
-            modelBuilder.Entity<Prod>().ToTable("MovProds");
-            modelBuilder.Entity<ICMS>().ToTable("MovProdIcms");
-            modelBuilder.Entity<COFINS>().ToTable("MovProdCofins");
-            modelBuilder.Entity<II>().ToTable("MovProdIis");
-            modelBuilder.Entity<IPI>().ToTable("MovProdIpis");
-            modelBuilder.Entity<PIS>().ToTable("MovProdPis");
-            modelBuilder.Entity<ISSQN>().ToTable("MovProdISSQNs");
-            modelBuilder.Entity<Comb>().ToTable("MovProdCombs");
-            modelBuilder.Entity<OrigComb>().ToTable("MovProdCombOrigCombs");
-            modelBuilder.Entity<Encerrante>().ToTable("MovProdCombEncerrantes");
-            modelBuilder.Entity<DetExport>().ToTable("MovProdDetExports");
-            modelBuilder.Entity<ExportInd>().ToTable("MovProdDetExportInds");
-            modelBuilder.Entity<DI>().ToTable("MovProdDIs");
-            modelBuilder.Entity<Adi>().ToTable("MovProdDIAdis");
-            modelBuilder.Entity<ICMSTot>().ToTable("MovICMSTotais");
-            modelBuilder.Entity<RetTrib>().ToTable("MovRetTribs");
-            modelBuilder.Entity<ISSQNtot>().ToTable("MovISSQNTotais");
-            modelBuilder.Entity<Transp>().ToTable("MovTransps");
-            modelBuilder.Entity<Transporta>().ToTable("MovTransportas");
-            modelBuilder.Entity<RetTransp>().ToTable("MovTranspRets");
-            modelBuilder.Entity<VeicTransp>().ToTable("MovTranspVeics");
-            modelBuilder.Entity<Reboque>().ToTable("MovTranspReboques");
-            modelBuilder.Entity<Vol>().ToTable("MovTranspVols");
-            modelBuilder.Entity<Lacre>().ToTable("MovTranspVolLacres");
-            modelBuilder.Entity<DetPag>().ToTable("MovPagDets");
-            modelBuilder.Entity<Card>().ToTable("MovPagDetCards");
-            modelBuilder.Entity<Dup>().ToTable("MovDups");
-            modelBuilder.Entity<Fat>().ToTable("MovFats");
-            modelBuilder.Entity<RetiradaDocumento>().ToTable("RetiradaDocumentos");
+            modelBuilder.Entity<InfRespTec>().ToTable("tbMovInfRespTecs");
+            modelBuilder.Entity<NFref>().ToTable("tbMovNFRefs");
+            modelBuilder.Entity<Emit>().ToTable("tbMovEmits");
+            modelBuilder.Entity<Dest>().ToTable("tbMovDests");
+            modelBuilder.Entity<Prod>().ToTable("tbMovProds");
+            modelBuilder.Entity<ICMS>().ToTable("tbMovProdIcms");
+            modelBuilder.Entity<COFINS>().ToTable("tbMovProdCofins");
+            modelBuilder.Entity<II>().ToTable("tbMovProdIis");
+            modelBuilder.Entity<IPI>().ToTable("tbMovProdIpis");
+            modelBuilder.Entity<PIS>().ToTable("tbMovProdPis");
+            modelBuilder.Entity<ISSQN>().ToTable("tbMovProdISSQNs");
+            modelBuilder.Entity<Comb>().ToTable("tbMovProdCombs");
+            modelBuilder.Entity<Encerrante>().ToTable("tbMovProdCombEncerrantes");
+            modelBuilder.Entity<DetExport>().ToTable("tbMovProdDetExports");
+            modelBuilder.Entity<ExportInd>().ToTable("tbMovProdDetExportInds");
+            modelBuilder.Entity<DI>().ToTable("tbMovProdDIs");
+            modelBuilder.Entity<Adi>().ToTable("tbMovProdDIAdis");
+            modelBuilder.Entity<ICMSTot>().ToTable("tbMovICMSTotais");
+            modelBuilder.Entity<RetTrib>().ToTable("tbMovRetTribs");
+            modelBuilder.Entity<ISSQNtot>().ToTable("tbMovISSQNTotais");
+            modelBuilder.Entity<Transp>().ToTable("tbMovTransps");
+            modelBuilder.Entity<Transporta>().ToTable("tbMovTransportas");
+            modelBuilder.Entity<RetTransp>().ToTable("tbMovTranspRets");
+            modelBuilder.Entity<VeicTransp>().ToTable("tbMovTranspVeics");
+            modelBuilder.Entity<Reboque>().ToTable("tbMovTranspReboques");
+            modelBuilder.Entity<Vol>().ToTable("tbMovTranspVols");
+            modelBuilder.Entity<Lacre>().ToTable("tbMovTranspVolLacres");
+            modelBuilder.Entity<DetPag>().ToTable("tbMovPagDets");
+            modelBuilder.Entity<Card>().ToTable("tbMovPagDetCards");
+            modelBuilder.Entity<Dup>().ToTable("tbMovDups");
+            modelBuilder.Entity<Fat>().ToTable("tbMovFats");
+            modelBuilder.Entity<RetiradaDocumento>().ToTable("tbRetiradaDocumentos");
+
+            modelBuilder.Entity<Ide>()
+            .HasMany(i => i.NFref)
+            .WithOne(n => n.Ide)
+            .HasForeignKey(n => n.IdeId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Comb>()
+            .OwnsOne(c => c.OrigComb, ob =>
+            {
+                ob.Property(o => o.indImport).HasColumnName("OrigComb_IndImport");
+                ob.Property(o => o.cUFOrig).HasColumnName("OrigComb_CUFOrig");
+                ob.Property(o => o.pOrig).HasColumnName("OrigComb_POrig");
+            });
         }
     }
 }

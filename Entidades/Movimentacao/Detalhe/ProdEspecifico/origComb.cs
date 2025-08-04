@@ -1,4 +1,5 @@
 ﻿using Infotech.PDV.Core;
+using ISync.Classes;
 using ISync.Classes.Utils;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ISync.Entidades.Movimentacao.Detalhe.ProdEspecifico
 {
-    public class OrigComb
+    public class OrigComb 
     {
         private decimal _pOrig;
 
