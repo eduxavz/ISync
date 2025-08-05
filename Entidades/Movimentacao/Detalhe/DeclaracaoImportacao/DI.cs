@@ -1,6 +1,5 @@
-﻿
-using Infotech.PDV.Movimentacao.Domain.Entities.Detalhe;
-using ISync.Classes;
+﻿using ISync.Classes;
+using ISync.Core.Enums.Movimentacao;
 
 namespace ISync.Entidades.Movimentacao.Detalhe.DeclaracaoImportacao
 {

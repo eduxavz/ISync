@@ -1,5 +1,5 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Utils;
+using ISync.Core.Utils;
 
 namespace ISync.Entidades.Movimentacao.Transporte
 {

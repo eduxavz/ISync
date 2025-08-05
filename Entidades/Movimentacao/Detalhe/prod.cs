@@ -1,7 +1,7 @@
-﻿using Infotech.PDV.Movimentacao.Domain.Entities.Detalhe;
-using ISync.Classes;
-using ISync.Classes.Core.Enums;
-using ISync.Classes.Core.Utils;
+﻿using ISync.Classes;
+using ISync.Core.Enums;
+using ISync.Core.Enums.Movimentacao;
+using ISync.Core.Utils;
 using ISync.Entidades.Movimentacao.Detalhe.Exportacao;
 using ISync.Entidades.Movimentacao.Detalhe.ProdEspecifico;
 using ISync.Entidades.Movimentacao.Detalhe.Tributacao.Estadual;

@@ -1,5 +1,5 @@
-﻿using ISync.Classes.Core.Enums;
-using ISync.Classes.Core.Enums.Movimentacao;
+﻿using ISync.Core.Enums;
+using ISync.Core.Enums.Movimentacao;
 using System;
 using System.Collections.Generic;
 using System.Globalization;

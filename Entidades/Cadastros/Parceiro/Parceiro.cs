@@ -1,7 +1,7 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Enums;
-using ISync.Classes.Core.Enums.Movimentacao;
-using ISync.Classes.Core.Utils;
+using ISync.Core.Enums;
+using ISync.Core.Enums.Movimentacao;
+using ISync.Core.Utils;
 using System;
 using System.Xml.Serialization;
 

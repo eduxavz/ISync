@@ -1,5 +1,5 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Utils;
+using ISync.Core.Utils;
 using ISync.Entidades.Movimentacao.Identificacao;
 
 namespace ISync.Entidades.Movimentacao.Total

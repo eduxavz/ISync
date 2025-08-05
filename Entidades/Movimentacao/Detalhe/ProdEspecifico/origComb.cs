@@ -1,6 +1,6 @@
-﻿using Infotech.PDV.Core;
-using ISync.Classes;
+﻿using ISync.Classes;
 using ISync.Classes.Utils;
+using ISync.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

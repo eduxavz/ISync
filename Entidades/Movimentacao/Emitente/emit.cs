@@ -1,6 +1,6 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Enums;
-using ISync.Classes.Core.Utils;
+using ISync.Core.Enums;
+using ISync.Core.Utils;
 using ISync.Entidades.Movimentacao.Identificacao;
 using System.Text.Json.Serialization;
 

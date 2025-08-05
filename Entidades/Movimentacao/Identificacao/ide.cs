@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ISync.Classes.Core.Enums.Movimentacao;
 using System.Linq;
-using ISync.Classes.Core.Utils;
 using ISync.Entidades.Movimentacao.Cobranca;
 using ISync.Entidades.Movimentacao.Destinatario;
 using ISync.Entidades.Movimentacao.Detalhe;
@@ -13,6 +11,8 @@ using ISync.Entidades.Movimentacao.RespTecnico;
 using ISync.Entidades.Movimentacao.Total;
 using ISync.Entidades.Movimentacao.Transporte;
 using ISync.Classes;
+using ISync.Core.Utils;
+using ISync.Core.Enums.Movimentacao;
 
 namespace ISync.Entidades.Movimentacao.Identificacao
 {

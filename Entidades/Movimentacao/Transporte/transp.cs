@@ -1,5 +1,5 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Enums.Movimentacao;
+using ISync.Core.Enums.Movimentacao;
 using ISync.Entidades.Movimentacao.Identificacao;
 using System.Collections.Generic;
 namespace ISync.Entidades.Movimentacao.Transporte

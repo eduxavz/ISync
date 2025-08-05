@@ -1,5 +1,5 @@
-﻿using Infotech.PDV.Movimentacao.Domain.Entities.Detalhe.Tributacao.Federal.Tipos;
-using ISync.Classes;
+﻿using ISync.Classes;
+using ISync.Core.Enums.Movimentacao;
 using ISync.Entidades.Movimentacao.Detalhe;
 using System;
 using System.Runtime.InteropServices;

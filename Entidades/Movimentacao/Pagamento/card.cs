@@ -1,5 +1,5 @@
 ﻿using ISync.Classes;
-using ISync.Classes.Core.Enums;
+using ISync.Core.Enums;
 using System;
 using System.Text.Json.Serialization;
 
