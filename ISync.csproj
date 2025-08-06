@@ -17,6 +17,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="Zeus.Net.NFe.NFCe" Version="2025.7.28.1818" />
   </ItemGroup>
 
 </Project>
