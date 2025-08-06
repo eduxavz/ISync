@@ -28,1204 +28,1328 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabCabecalho = new System.Windows.Forms.TabPage();
-            this.tabTransporte = new System.Windows.Forms.TabPage();
-            this.tabProdutos = new System.Windows.Forms.TabPage();
-            this.tabDuplicatas = new System.Windows.Forms.TabPage();
-            this.tabReferencia = new System.Windows.Forms.TabPage();
-            this.tabAutXML = new System.Windows.Forms.TabPage();
-            this.tabFormaPagamento = new System.Windows.Forms.TabPage();
-            this.tabTotais = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtQuantidade = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.txtDescricao = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.txtValorUn = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.txtValorTotal = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.lblValorImpostos = new System.Windows.Forms.Label();
-            this.lblValorTotal = new System.Windows.Forms.Label();
-            this.lblQuantidadeItens = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.txtNumParcelas = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.label34 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.txtBcIcms = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.txtTotIcms = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.txtBcIcmsSt = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.txtTotIcmsSt = new System.Windows.Forms.TextBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.txtTotProdServ = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.txtTotFrete = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.txtTotDesc = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.txtTotIpi = new System.Windows.Forms.TextBox();
-            this.txtTotPis = new System.Windows.Forms.TextBox();
-            this.txtTotCofins = new System.Windows.Forms.TextBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.txtTotalNFe = new System.Windows.Forms.TextBox();
-            this.btnSalvareTransmitir = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabCabecalho.SuspendLayout();
-            this.tabTransporte.SuspendLayout();
-            this.tabProdutos.SuspendLayout();
-            this.tabDuplicatas.SuspendLayout();
-            this.tabReferencia.SuspendLayout();
-            this.tabAutXML.SuspendLayout();
-            this.tabFormaPagamento.SuspendLayout();
-            this.tabTotais.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.SuspendLayout();
+            tabControl1 = new TabControl();
+            tabCabecalho = new TabPage();
+            textBox9 = new TextBox();
+            label15 = new Label();
+            textBox8 = new TextBox();
+            label14 = new Label();
+            textBox7 = new TextBox();
+            label13 = new Label();
+            comboBox5 = new ComboBox();
+            label12 = new Label();
+            textBox6 = new TextBox();
+            label11 = new Label();
+            comboBox4 = new ComboBox();
+            comboBox3 = new ComboBox();
+            textBox5 = new TextBox();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            label10 = new Label();
+            label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            comboBox2 = new ComboBox();
+            label5 = new Label();
+            label4 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            textBox2 = new TextBox();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            label2 = new Label();
+            comboBox1 = new ComboBox();
+            label1 = new Label();
+            tabTransporte = new TabPage();
+            textBox13 = new TextBox();
+            label21 = new Label();
+            comboBox7 = new ComboBox();
+            label20 = new Label();
+            textBox12 = new TextBox();
+            label19 = new Label();
+            textBox11 = new TextBox();
+            label18 = new Label();
+            comboBox6 = new ComboBox();
+            textBox10 = new TextBox();
+            label17 = new Label();
+            label16 = new Label();
+            tabProdutos = new TabPage();
+            lblQuantidadeItens = new Label();
+            lblValorTotal = new Label();
+            lblValorImpostos = new Label();
+            label30 = new Label();
+            label29 = new Label();
+            label28 = new Label();
+            label27 = new Label();
+            dataGridView1 = new DataGridView();
+            txtValorTotal = new TextBox();
+            label26 = new Label();
+            txtValorUn = new TextBox();
+            label25 = new Label();
+            txtDescricao = new TextBox();
+            label24 = new Label();
+            txtQuantidade = new TextBox();
+            label23 = new Label();
+            txtCodigo = new TextBox();
+            label22 = new Label();
+            tabDuplicatas = new TabPage();
+            txtNumParcelas = new TextBox();
+            label31 = new Label();
+            tabReferencia = new TabPage();
+            dataGridView2 = new DataGridView();
+            button1 = new Button();
+            textBox14 = new TextBox();
+            label32 = new Label();
+            tabAutXML = new TabPage();
+            dataGridView3 = new DataGridView();
+            button2 = new Button();
+            textBox15 = new TextBox();
+            label33 = new Label();
+            tabFormaPagamento = new TabPage();
+            comboBox9 = new ComboBox();
+            label37 = new Label();
+            textBox17 = new TextBox();
+            label36 = new Label();
+            textBox16 = new TextBox();
+            label35 = new Label();
+            comboBox8 = new ComboBox();
+            label34 = new Label();
+            tabTotais = new TabPage();
+            txtTotalNFe = new TextBox();
+            label48 = new Label();
+            txtTotCofins = new TextBox();
+            txtTotPis = new TextBox();
+            txtTotIpi = new TextBox();
+            label47 = new Label();
+            label46 = new Label();
+            label45 = new Label();
+            txtTotDesc = new TextBox();
+            label44 = new Label();
+            txtTotFrete = new TextBox();
+            label43 = new Label();
+            txtTotProdServ = new TextBox();
+            label42 = new Label();
+            txtTotIcmsSt = new TextBox();
+            label41 = new Label();
+            txtBcIcmsSt = new TextBox();
+            label40 = new Label();
+            txtTotIcms = new TextBox();
+            label39 = new Label();
+            txtBcIcms = new TextBox();
+            label38 = new Label();
+            btnSalvar = new Button();
+            btnCancelar = new Button();
+            btnTransmitir = new Button();
+            tabControl1.SuspendLayout();
+            tabCabecalho.SuspendLayout();
+            tabTransporte.SuspendLayout();
+            tabProdutos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabDuplicatas.SuspendLayout();
+            tabReferencia.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            tabAutXML.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            tabFormaPagamento.SuspendLayout();
+            tabTotais.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabCabecalho);
-            this.tabControl1.Controls.Add(this.tabTransporte);
-            this.tabControl1.Controls.Add(this.tabProdutos);
-            this.tabControl1.Controls.Add(this.tabDuplicatas);
-            this.tabControl1.Controls.Add(this.tabReferencia);
-            this.tabControl1.Controls.Add(this.tabAutXML);
-            this.tabControl1.Controls.Add(this.tabFormaPagamento);
-            this.tabControl1.Controls.Add(this.tabTotais);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(766, 408);
-            this.tabControl1.TabIndex = 0;
+            tabControl1.Controls.Add(tabCabecalho);
+            tabControl1.Controls.Add(tabTransporte);
+            tabControl1.Controls.Add(tabProdutos);
+            tabControl1.Controls.Add(tabDuplicatas);
+            tabControl1.Controls.Add(tabReferencia);
+            tabControl1.Controls.Add(tabAutXML);
+            tabControl1.Controls.Add(tabFormaPagamento);
+            tabControl1.Controls.Add(tabTotais);
+            tabControl1.Location = new Point(14, 14);
+            tabControl1.Margin = new Padding(4, 3, 4, 3);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(894, 471);
+            tabControl1.TabIndex = 0;
             // 
             // tabCabecalho
             // 
-            this.tabCabecalho.Controls.Add(this.textBox9);
-            this.tabCabecalho.Controls.Add(this.label15);
-            this.tabCabecalho.Controls.Add(this.textBox8);
-            this.tabCabecalho.Controls.Add(this.label14);
-            this.tabCabecalho.Controls.Add(this.textBox7);
-            this.tabCabecalho.Controls.Add(this.label13);
-            this.tabCabecalho.Controls.Add(this.comboBox5);
-            this.tabCabecalho.Controls.Add(this.label12);
-            this.tabCabecalho.Controls.Add(this.textBox6);
-            this.tabCabecalho.Controls.Add(this.label11);
-            this.tabCabecalho.Controls.Add(this.comboBox4);
-            this.tabCabecalho.Controls.Add(this.comboBox3);
-            this.tabCabecalho.Controls.Add(this.textBox5);
-            this.tabCabecalho.Controls.Add(this.textBox4);
-            this.tabCabecalho.Controls.Add(this.textBox3);
-            this.tabCabecalho.Controls.Add(this.label10);
-            this.tabCabecalho.Controls.Add(this.label9);
-            this.tabCabecalho.Controls.Add(this.label8);
-            this.tabCabecalho.Controls.Add(this.label7);
-            this.tabCabecalho.Controls.Add(this.label6);
-            this.tabCabecalho.Controls.Add(this.comboBox2);
-            this.tabCabecalho.Controls.Add(this.label5);
-            this.tabCabecalho.Controls.Add(this.label4);
-            this.tabCabecalho.Controls.Add(this.dateTimePicker1);
-            this.tabCabecalho.Controls.Add(this.textBox2);
-            this.tabCabecalho.Controls.Add(this.label3);
-            this.tabCabecalho.Controls.Add(this.textBox1);
-            this.tabCabecalho.Controls.Add(this.label2);
-            this.tabCabecalho.Controls.Add(this.comboBox1);
-            this.tabCabecalho.Controls.Add(this.label1);
-            this.tabCabecalho.Location = new System.Drawing.Point(4, 22);
-            this.tabCabecalho.Name = "tabCabecalho";
-            this.tabCabecalho.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCabecalho.Size = new System.Drawing.Size(758, 382);
-            this.tabCabecalho.TabIndex = 0;
-            this.tabCabecalho.Text = "Cabeçalho";
-            this.tabCabecalho.UseVisualStyleBackColor = true;
-            // 
-            // tabTransporte
-            // 
-            this.tabTransporte.Controls.Add(this.textBox13);
-            this.tabTransporte.Controls.Add(this.label21);
-            this.tabTransporte.Controls.Add(this.comboBox7);
-            this.tabTransporte.Controls.Add(this.label20);
-            this.tabTransporte.Controls.Add(this.textBox12);
-            this.tabTransporte.Controls.Add(this.label19);
-            this.tabTransporte.Controls.Add(this.textBox11);
-            this.tabTransporte.Controls.Add(this.label18);
-            this.tabTransporte.Controls.Add(this.comboBox6);
-            this.tabTransporte.Controls.Add(this.textBox10);
-            this.tabTransporte.Controls.Add(this.label17);
-            this.tabTransporte.Controls.Add(this.label16);
-            this.tabTransporte.Location = new System.Drawing.Point(4, 22);
-            this.tabTransporte.Name = "tabTransporte";
-            this.tabTransporte.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTransporte.Size = new System.Drawing.Size(758, 382);
-            this.tabTransporte.TabIndex = 1;
-            this.tabTransporte.Text = "Transporte";
-            this.tabTransporte.UseVisualStyleBackColor = true;
-            // 
-            // tabProdutos
-            // 
-            this.tabProdutos.Controls.Add(this.lblQuantidadeItens);
-            this.tabProdutos.Controls.Add(this.lblValorTotal);
-            this.tabProdutos.Controls.Add(this.lblValorImpostos);
-            this.tabProdutos.Controls.Add(this.label30);
-            this.tabProdutos.Controls.Add(this.label29);
-            this.tabProdutos.Controls.Add(this.label28);
-            this.tabProdutos.Controls.Add(this.label27);
-            this.tabProdutos.Controls.Add(this.dataGridView1);
-            this.tabProdutos.Controls.Add(this.txtValorTotal);
-            this.tabProdutos.Controls.Add(this.label26);
-            this.tabProdutos.Controls.Add(this.txtValorUn);
-            this.tabProdutos.Controls.Add(this.label25);
-            this.tabProdutos.Controls.Add(this.txtDescricao);
-            this.tabProdutos.Controls.Add(this.label24);
-            this.tabProdutos.Controls.Add(this.txtQuantidade);
-            this.tabProdutos.Controls.Add(this.label23);
-            this.tabProdutos.Controls.Add(this.txtCodigo);
-            this.tabProdutos.Controls.Add(this.label22);
-            this.tabProdutos.Location = new System.Drawing.Point(4, 22);
-            this.tabProdutos.Name = "tabProdutos";
-            this.tabProdutos.Size = new System.Drawing.Size(758, 382);
-            this.tabProdutos.TabIndex = 2;
-            this.tabProdutos.Text = "Produtos";
-            this.tabProdutos.UseVisualStyleBackColor = true;
-            // 
-            // tabDuplicatas
-            // 
-            this.tabDuplicatas.Controls.Add(this.txtNumParcelas);
-            this.tabDuplicatas.Controls.Add(this.label31);
-            this.tabDuplicatas.Location = new System.Drawing.Point(4, 22);
-            this.tabDuplicatas.Name = "tabDuplicatas";
-            this.tabDuplicatas.Size = new System.Drawing.Size(758, 382);
-            this.tabDuplicatas.TabIndex = 3;
-            this.tabDuplicatas.Text = "Duplicatas";
-            this.tabDuplicatas.UseVisualStyleBackColor = true;
-            // 
-            // tabReferencia
-            // 
-            this.tabReferencia.Controls.Add(this.dataGridView2);
-            this.tabReferencia.Controls.Add(this.button1);
-            this.tabReferencia.Controls.Add(this.textBox14);
-            this.tabReferencia.Controls.Add(this.label32);
-            this.tabReferencia.Location = new System.Drawing.Point(4, 22);
-            this.tabReferencia.Name = "tabReferencia";
-            this.tabReferencia.Size = new System.Drawing.Size(758, 382);
-            this.tabReferencia.TabIndex = 4;
-            this.tabReferencia.Text = "Referência";
-            this.tabReferencia.UseVisualStyleBackColor = true;
-            // 
-            // tabAutXML
-            // 
-            this.tabAutXML.Controls.Add(this.dataGridView3);
-            this.tabAutXML.Controls.Add(this.button2);
-            this.tabAutXML.Controls.Add(this.textBox15);
-            this.tabAutXML.Controls.Add(this.label33);
-            this.tabAutXML.Location = new System.Drawing.Point(4, 22);
-            this.tabAutXML.Name = "tabAutXML";
-            this.tabAutXML.Size = new System.Drawing.Size(758, 382);
-            this.tabAutXML.TabIndex = 5;
-            this.tabAutXML.Text = "Autorização para obter XML";
-            this.tabAutXML.UseVisualStyleBackColor = true;
-            // 
-            // tabFormaPagamento
-            // 
-            this.tabFormaPagamento.Controls.Add(this.comboBox9);
-            this.tabFormaPagamento.Controls.Add(this.label37);
-            this.tabFormaPagamento.Controls.Add(this.textBox17);
-            this.tabFormaPagamento.Controls.Add(this.label36);
-            this.tabFormaPagamento.Controls.Add(this.textBox16);
-            this.tabFormaPagamento.Controls.Add(this.label35);
-            this.tabFormaPagamento.Controls.Add(this.comboBox8);
-            this.tabFormaPagamento.Controls.Add(this.label34);
-            this.tabFormaPagamento.Location = new System.Drawing.Point(4, 22);
-            this.tabFormaPagamento.Name = "tabFormaPagamento";
-            this.tabFormaPagamento.Size = new System.Drawing.Size(758, 382);
-            this.tabFormaPagamento.TabIndex = 6;
-            this.tabFormaPagamento.Text = "Forma de pagamento";
-            this.tabFormaPagamento.UseVisualStyleBackColor = true;
-            // 
-            // tabTotais
-            // 
-            this.tabTotais.Controls.Add(this.txtTotalNFe);
-            this.tabTotais.Controls.Add(this.label48);
-            this.tabTotais.Controls.Add(this.txtTotCofins);
-            this.tabTotais.Controls.Add(this.txtTotPis);
-            this.tabTotais.Controls.Add(this.txtTotIpi);
-            this.tabTotais.Controls.Add(this.label47);
-            this.tabTotais.Controls.Add(this.label46);
-            this.tabTotais.Controls.Add(this.label45);
-            this.tabTotais.Controls.Add(this.txtTotDesc);
-            this.tabTotais.Controls.Add(this.label44);
-            this.tabTotais.Controls.Add(this.txtTotFrete);
-            this.tabTotais.Controls.Add(this.label43);
-            this.tabTotais.Controls.Add(this.txtTotProdServ);
-            this.tabTotais.Controls.Add(this.label42);
-            this.tabTotais.Controls.Add(this.txtTotIcmsSt);
-            this.tabTotais.Controls.Add(this.label41);
-            this.tabTotais.Controls.Add(this.txtBcIcmsSt);
-            this.tabTotais.Controls.Add(this.label40);
-            this.tabTotais.Controls.Add(this.txtTotIcms);
-            this.tabTotais.Controls.Add(this.label39);
-            this.tabTotais.Controls.Add(this.txtBcIcms);
-            this.tabTotais.Controls.Add(this.label38);
-            this.tabTotais.Location = new System.Drawing.Point(4, 22);
-            this.tabTotais.Name = "tabTotais";
-            this.tabTotais.Size = new System.Drawing.Size(758, 382);
-            this.tabTotais.TabIndex = 7;
-            this.tabTotais.Text = "Totais";
-            this.tabTotais.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Natureza de Operação";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(9, 28);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(136, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Série";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(139, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(246, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Número NFe";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(249, 28);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(377, 28);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(112, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            this.dateTimePicker1.Value = new System.DateTime(2025, 9, 16, 0, 0, 0, 0);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(377, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Data de Emissão";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(499, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Tipo de documento";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(502, 28);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 9;
-            this.comboBox2.Text = "Saída";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 62);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Código do pedido";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(139, 62);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 13);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Carga/Lote/Rota";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(246, 61);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "IE Subst. Tributário";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(377, 61);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 13);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Consumidor final";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(502, 61);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(109, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Presença consumidor";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(9, 79);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 15;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(139, 79);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 16;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(249, 79);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 17;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(377, 77);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(112, 21);
-            this.comboBox3.TabIndex = 18;
-            this.comboBox3.Text = "Sim";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(502, 77);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 19;
-            this.comboBox4.Text = "Sim";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 116);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(196, 13);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "Identificador Intermediador/Marketplace";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(9, 135);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(230, 20);
-            this.textBox6.TabIndex = 21;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(249, 116);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 13);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "Indicador de operação";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(252, 135);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(172, 21);
-            this.comboBox5.TabIndex = 23;
-            this.comboBox5.Text = "1 - Operação interna";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(9, 195);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 13);
-            this.label13.TabIndex = 24;
-            this.label13.Text = "Cod. Destinatário";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(9, 211);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(112, 20);
-            this.textBox7.TabIndex = 25;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(134, 195);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(71, 13);
-            this.label14.TabIndex = 26;
-            this.label14.Text = "Nome/Razão";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(137, 211);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(273, 20);
-            this.textBox8.TabIndex = 27;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(427, 195);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(62, 13);
-            this.label15.TabIndex = 28;
-            this.label15.Text = "Documento";
+            tabCabecalho.Controls.Add(textBox9);
+            tabCabecalho.Controls.Add(label15);
+            tabCabecalho.Controls.Add(textBox8);
+            tabCabecalho.Controls.Add(label14);
+            tabCabecalho.Controls.Add(textBox7);
+            tabCabecalho.Controls.Add(label13);
+            tabCabecalho.Controls.Add(comboBox5);
+            tabCabecalho.Controls.Add(label12);
+            tabCabecalho.Controls.Add(textBox6);
+            tabCabecalho.Controls.Add(label11);
+            tabCabecalho.Controls.Add(comboBox4);
+            tabCabecalho.Controls.Add(comboBox3);
+            tabCabecalho.Controls.Add(textBox5);
+            tabCabecalho.Controls.Add(textBox4);
+            tabCabecalho.Controls.Add(textBox3);
+            tabCabecalho.Controls.Add(label10);
+            tabCabecalho.Controls.Add(label9);
+            tabCabecalho.Controls.Add(label8);
+            tabCabecalho.Controls.Add(label7);
+            tabCabecalho.Controls.Add(label6);
+            tabCabecalho.Controls.Add(comboBox2);
+            tabCabecalho.Controls.Add(label5);
+            tabCabecalho.Controls.Add(label4);
+            tabCabecalho.Controls.Add(dateTimePicker1);
+            tabCabecalho.Controls.Add(textBox2);
+            tabCabecalho.Controls.Add(label3);
+            tabCabecalho.Controls.Add(textBox1);
+            tabCabecalho.Controls.Add(label2);
+            tabCabecalho.Controls.Add(comboBox1);
+            tabCabecalho.Controls.Add(label1);
+            tabCabecalho.Location = new Point(4, 24);
+            tabCabecalho.Margin = new Padding(4, 3, 4, 3);
+            tabCabecalho.Name = "tabCabecalho";
+            tabCabecalho.Padding = new Padding(4, 3, 4, 3);
+            tabCabecalho.Size = new Size(886, 443);
+            tabCabecalho.TabIndex = 0;
+            tabCabecalho.Text = "Cabeçalho";
+            tabCabecalho.UseVisualStyleBackColor = true;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(430, 211);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(193, 20);
-            this.textBox9.TabIndex = 29;
+            textBox9.Location = new Point(502, 243);
+            textBox9.Margin = new Padding(4, 3, 4, 3);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(224, 23);
+            textBox9.TabIndex = 29;
             // 
-            // label16
+            // label15
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 12);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 13);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Código";
+            label15.AutoSize = true;
+            label15.Location = new Point(498, 225);
+            label15.Margin = new Padding(4, 0, 4, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(70, 15);
+            label15.TabIndex = 28;
+            label15.Text = "Documento";
             // 
-            // label17
+            // textBox8
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(116, 12);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 13);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Modalidade do Frete";
+            textBox8.Location = new Point(160, 243);
+            textBox8.Margin = new Padding(4, 3, 4, 3);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(318, 23);
+            textBox8.TabIndex = 27;
             // 
-            // textBox10
+            // label14
             // 
-            this.textBox10.Location = new System.Drawing.Point(9, 28);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 2;
+            label14.AutoSize = true;
+            label14.Location = new Point(156, 225);
+            label14.Margin = new Padding(4, 0, 4, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(76, 15);
+            label14.TabIndex = 26;
+            label14.Text = "Nome/Razão";
             // 
-            // comboBox6
+            // textBox7
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(119, 28);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(331, 21);
-            this.comboBox6.TabIndex = 3;
+            textBox7.Location = new Point(10, 243);
+            textBox7.Margin = new Padding(4, 3, 4, 3);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(130, 23);
+            textBox7.TabIndex = 25;
             // 
-            // label18
+            // label13
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(9, 55);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(70, 13);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "Razão Social";
+            label13.AutoSize = true;
+            label13.Location = new Point(10, 225);
+            label13.Margin = new Padding(4, 0, 4, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(98, 15);
+            label13.TabIndex = 24;
+            label13.Text = "Cod. Destinatário";
             // 
-            // textBox11
+            // comboBox5
             // 
-            this.textBox11.Location = new System.Drawing.Point(9, 71);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(295, 20);
-            this.textBox11.TabIndex = 5;
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(294, 156);
+            comboBox5.Margin = new Padding(4, 3, 4, 3);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(200, 23);
+            comboBox5.TabIndex = 23;
+            comboBox5.Text = "1 - Operação interna";
             // 
-            // label19
+            // label12
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(311, 56);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 13);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "Nome Fantasia";
+            label12.AutoSize = true;
+            label12.Location = new Point(290, 134);
+            label12.Margin = new Padding(4, 0, 4, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(125, 15);
+            label12.TabIndex = 22;
+            label12.Text = "Indicador de operação";
             // 
-            // textBox12
+            // textBox6
             // 
-            this.textBox12.Location = new System.Drawing.Point(310, 71);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(295, 20);
-            this.textBox12.TabIndex = 7;
+            textBox6.Location = new Point(10, 156);
+            textBox6.Margin = new Padding(4, 3, 4, 3);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(268, 23);
+            textBox6.TabIndex = 21;
             // 
-            // label20
+            // label11
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(9, 106);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(79, 13);
-            this.label20.TabIndex = 8;
-            this.label20.Text = "Física/Jurídica";
+            label11.AutoSize = true;
+            label11.Location = new Point(10, 134);
+            label11.Margin = new Padding(4, 0, 4, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(222, 15);
+            label11.TabIndex = 20;
+            label11.Text = "Identificador Intermediador/Marketplace";
             // 
-            // comboBox7
+            // comboBox4
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(9, 122);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 9;
-            this.comboBox7.Text = "Física";
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Location = new Point(586, 89);
+            comboBox4.Margin = new Padding(4, 3, 4, 3);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(140, 23);
+            comboBox4.TabIndex = 19;
+            comboBox4.Text = "Sim";
             // 
-            // label21
+            // comboBox3
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(142, 106);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(62, 13);
-            this.label21.TabIndex = 10;
-            this.label21.Text = "Documento";
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(440, 89);
+            comboBox3.Margin = new Padding(4, 3, 4, 3);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(130, 23);
+            comboBox3.TabIndex = 18;
+            comboBox3.Text = "Sim";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(290, 91);
+            textBox5.Margin = new Padding(4, 3, 4, 3);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(116, 23);
+            textBox5.TabIndex = 17;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(162, 91);
+            textBox4.Margin = new Padding(4, 3, 4, 3);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(116, 23);
+            textBox4.TabIndex = 16;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(10, 91);
+            textBox3.Margin = new Padding(4, 3, 4, 3);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(140, 23);
+            textBox3.TabIndex = 15;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(586, 70);
+            label10.Margin = new Padding(4, 0, 4, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(121, 15);
+            label10.TabIndex = 14;
+            label10.Text = "Presença consumidor";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(440, 70);
+            label9.Margin = new Padding(4, 0, 4, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(99, 15);
+            label9.TabIndex = 13;
+            label9.Text = "Consumidor final";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(287, 70);
+            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(104, 15);
+            label8.TabIndex = 12;
+            label8.Text = "IE Subst. Tributário";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(162, 72);
+            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(95, 15);
+            label7.TabIndex = 11;
+            label7.Text = "Carga/Lote/Rota";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(7, 72);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(103, 15);
+            label6.TabIndex = 10;
+            label6.Text = "Código do pedido";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(586, 32);
+            comboBox2.Margin = new Padding(4, 3, 4, 3);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(140, 23);
+            comboBox2.TabIndex = 9;
+            comboBox2.Text = "Saída";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(582, 14);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(111, 15);
+            label5.TabIndex = 8;
+            label5.Text = "Tipo de documento";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(440, 14);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(93, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Data de Emissão";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(440, 32);
+            dateTimePicker1.Margin = new Padding(4, 3, 4, 3);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(130, 23);
+            dateTimePicker1.TabIndex = 6;
+            dateTimePicker1.Value = new DateTime(2025, 9, 16, 0, 0, 0, 0);
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(290, 32);
+            textBox2.Margin = new Padding(4, 3, 4, 3);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(116, 23);
+            textBox2.TabIndex = 5;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(287, 14);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(75, 15);
+            label3.TabIndex = 4;
+            label3.Text = "Número NFe";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(162, 32);
+            textBox1.Margin = new Padding(4, 3, 4, 3);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(116, 23);
+            textBox1.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(159, 14);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(32, 15);
+            label2.TabIndex = 2;
+            label2.Text = "Série";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(10, 32);
+            comboBox1.Margin = new Padding(4, 3, 4, 3);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(140, 23);
+            comboBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(7, 14);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(124, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Natureza de Operação";
+            // 
+            // tabTransporte
+            // 
+            tabTransporte.Controls.Add(textBox13);
+            tabTransporte.Controls.Add(label21);
+            tabTransporte.Controls.Add(comboBox7);
+            tabTransporte.Controls.Add(label20);
+            tabTransporte.Controls.Add(textBox12);
+            tabTransporte.Controls.Add(label19);
+            tabTransporte.Controls.Add(textBox11);
+            tabTransporte.Controls.Add(label18);
+            tabTransporte.Controls.Add(comboBox6);
+            tabTransporte.Controls.Add(textBox10);
+            tabTransporte.Controls.Add(label17);
+            tabTransporte.Controls.Add(label16);
+            tabTransporte.Location = new Point(4, 24);
+            tabTransporte.Margin = new Padding(4, 3, 4, 3);
+            tabTransporte.Name = "tabTransporte";
+            tabTransporte.Padding = new Padding(4, 3, 4, 3);
+            tabTransporte.Size = new Size(886, 443);
+            tabTransporte.TabIndex = 1;
+            tabTransporte.Text = "Transporte";
+            tabTransporte.UseVisualStyleBackColor = true;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(145, 123);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(159, 20);
-            this.textBox13.TabIndex = 11;
+            textBox13.Location = new Point(169, 142);
+            textBox13.Margin = new Padding(4, 3, 4, 3);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(185, 23);
+            textBox13.TabIndex = 11;
             // 
-            // label22
+            // label21
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 9);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(40, 13);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Código";
+            label21.AutoSize = true;
+            label21.Location = new Point(166, 122);
+            label21.Margin = new Padding(4, 0, 4, 0);
+            label21.Name = "label21";
+            label21.Size = new Size(70, 15);
+            label21.TabIndex = 10;
+            label21.Text = "Documento";
             // 
-            // txtCodigo
+            // comboBox7
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(6, 25);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(100, 20);
-            this.txtCodigo.TabIndex = 1;
+            comboBox7.FormattingEnabled = true;
+            comboBox7.Location = new Point(10, 141);
+            comboBox7.Margin = new Padding(4, 3, 4, 3);
+            comboBox7.Name = "comboBox7";
+            comboBox7.Size = new Size(140, 23);
+            comboBox7.TabIndex = 9;
+            comboBox7.Text = "Física";
             // 
-            // label23
+            // label20
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(481, 9);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(62, 13);
-            this.label23.TabIndex = 2;
-            this.label23.Text = "Quantidade";
+            label20.AutoSize = true;
+            label20.Location = new Point(10, 122);
+            label20.Margin = new Padding(4, 0, 4, 0);
+            label20.Name = "label20";
+            label20.Size = new Size(81, 15);
+            label20.TabIndex = 8;
+            label20.Text = "Física/Jurídica";
             // 
-            // txtQuantidade
+            // textBox12
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(484, 25);
-            this.txtQuantidade.Name = "txtQuantidade";
-            this.txtQuantidade.Size = new System.Drawing.Size(100, 20);
-            this.txtQuantidade.TabIndex = 3;
+            textBox12.Location = new Point(362, 82);
+            textBox12.Margin = new Padding(4, 3, 4, 3);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(344, 23);
+            textBox12.TabIndex = 7;
             // 
-            // label24
+            // label19
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(113, 9);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(55, 13);
-            this.label24.TabIndex = 4;
-            this.label24.Text = "Descrição";
+            label19.AutoSize = true;
+            label19.Location = new Point(363, 65);
+            label19.Margin = new Padding(4, 0, 4, 0);
+            label19.Name = "label19";
+            label19.Size = new Size(86, 15);
+            label19.TabIndex = 6;
+            label19.Text = "Nome Fantasia";
             // 
-            // txtDescricao
+            // textBox11
             // 
-            this.txtDescricao.Location = new System.Drawing.Point(112, 25);
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(263, 20);
-            this.txtDescricao.TabIndex = 5;
+            textBox11.Location = new Point(10, 82);
+            textBox11.Margin = new Padding(4, 3, 4, 3);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(344, 23);
+            textBox11.TabIndex = 5;
             // 
-            // label25
+            // label18
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(382, 9);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(50, 13);
-            this.label25.TabIndex = 6;
-            this.label25.Text = "Valor UN";
+            label18.AutoSize = true;
+            label18.Location = new Point(10, 63);
+            label18.Margin = new Padding(4, 0, 4, 0);
+            label18.Name = "label18";
+            label18.Size = new Size(72, 15);
+            label18.TabIndex = 4;
+            label18.Text = "Razão Social";
             // 
-            // txtValorUn
+            // comboBox6
             // 
-            this.txtValorUn.Location = new System.Drawing.Point(385, 25);
-            this.txtValorUn.Name = "txtValorUn";
-            this.txtValorUn.Size = new System.Drawing.Size(88, 20);
-            this.txtValorUn.TabIndex = 7;
+            comboBox6.FormattingEnabled = true;
+            comboBox6.Location = new Point(139, 32);
+            comboBox6.Margin = new Padding(4, 3, 4, 3);
+            comboBox6.Name = "comboBox6";
+            comboBox6.Size = new Size(386, 23);
+            comboBox6.TabIndex = 3;
             // 
-            // label26
+            // textBox10
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(591, 9);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(54, 13);
-            this.label26.TabIndex = 8;
-            this.label26.Text = "Valor total";
+            textBox10.Location = new Point(10, 32);
+            textBox10.Margin = new Padding(4, 3, 4, 3);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(116, 23);
+            textBox10.TabIndex = 2;
             // 
-            // txtValorTotal
+            // label17
             // 
-            this.txtValorTotal.Location = new System.Drawing.Point(594, 25);
-            this.txtValorTotal.Name = "txtValorTotal";
-            this.txtValorTotal.Size = new System.Drawing.Size(124, 20);
-            this.txtValorTotal.TabIndex = 9;
+            label17.AutoSize = true;
+            label17.Location = new Point(135, 14);
+            label17.Margin = new Padding(4, 0, 4, 0);
+            label17.Name = "label17";
+            label17.Size = new Size(116, 15);
+            label17.TabIndex = 1;
+            label17.Text = "Modalidade do Frete";
             // 
-            // dataGridView1
+            // label16
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 62);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(749, 270);
-            this.dataGridView1.TabIndex = 10;
+            label16.AutoSize = true;
+            label16.Location = new Point(7, 14);
+            label16.Margin = new Padding(4, 0, 4, 0);
+            label16.Name = "label16";
+            label16.Size = new Size(46, 15);
+            label16.TabIndex = 0;
+            label16.Text = "Código";
             // 
-            // label27
+            // tabProdutos
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(291, 339);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(71, 13);
-            this.label27.TabIndex = 11;
-            this.label27.Text = "Total de itens";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(471, 339);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(90, 13);
-            this.label28.TabIndex = 12;
-            this.label28.Text = "Valor de impostos";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(12, 350);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(154, 17);
-            this.label29.TabIndex = 13;
-            this.label29.Text = "Resumo da Nota Fiscal";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(660, 339);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(58, 13);
-            this.label30.TabIndex = 14;
-            this.label30.Text = "Valor Total";
-            // 
-            // lblValorImpostos
-            // 
-            this.lblValorImpostos.AutoSize = true;
-            this.lblValorImpostos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorImpostos.Location = new System.Drawing.Point(470, 355);
-            this.lblValorImpostos.Name = "lblValorImpostos";
-            this.lblValorImpostos.Size = new System.Drawing.Size(83, 20);
-            this.lblValorImpostos.TabIndex = 16;
-            this.lblValorImpostos.Text = "R$ 156,00";
-            // 
-            // lblValorTotal
-            // 
-            this.lblValorTotal.AutoSize = true;
-            this.lblValorTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorTotal.Location = new System.Drawing.Point(639, 353);
-            this.lblValorTotal.Name = "lblValorTotal";
-            this.lblValorTotal.Size = new System.Drawing.Size(92, 20);
-            this.lblValorTotal.TabIndex = 17;
-            this.lblValorTotal.Text = "R$ 1000,00";
+            tabProdutos.Controls.Add(lblQuantidadeItens);
+            tabProdutos.Controls.Add(lblValorTotal);
+            tabProdutos.Controls.Add(lblValorImpostos);
+            tabProdutos.Controls.Add(label30);
+            tabProdutos.Controls.Add(label29);
+            tabProdutos.Controls.Add(label28);
+            tabProdutos.Controls.Add(label27);
+            tabProdutos.Controls.Add(dataGridView1);
+            tabProdutos.Controls.Add(txtValorTotal);
+            tabProdutos.Controls.Add(label26);
+            tabProdutos.Controls.Add(txtValorUn);
+            tabProdutos.Controls.Add(label25);
+            tabProdutos.Controls.Add(txtDescricao);
+            tabProdutos.Controls.Add(label24);
+            tabProdutos.Controls.Add(txtQuantidade);
+            tabProdutos.Controls.Add(label23);
+            tabProdutos.Controls.Add(txtCodigo);
+            tabProdutos.Controls.Add(label22);
+            tabProdutos.Location = new Point(4, 24);
+            tabProdutos.Margin = new Padding(4, 3, 4, 3);
+            tabProdutos.Name = "tabProdutos";
+            tabProdutos.Size = new Size(886, 443);
+            tabProdutos.TabIndex = 2;
+            tabProdutos.Text = "Produtos";
+            tabProdutos.UseVisualStyleBackColor = true;
             // 
             // lblQuantidadeItens
             // 
-            this.lblQuantidadeItens.AutoSize = true;
-            this.lblQuantidadeItens.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantidadeItens.Location = new System.Drawing.Point(290, 352);
-            this.lblQuantidadeItens.Name = "lblQuantidadeItens";
-            this.lblQuantidadeItens.Size = new System.Drawing.Size(18, 20);
-            this.lblQuantidadeItens.TabIndex = 18;
-            this.lblQuantidadeItens.Text = "0";
+            lblQuantidadeItens.AutoSize = true;
+            lblQuantidadeItens.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblQuantidadeItens.Location = new Point(338, 406);
+            lblQuantidadeItens.Margin = new Padding(4, 0, 4, 0);
+            lblQuantidadeItens.Name = "lblQuantidadeItens";
+            lblQuantidadeItens.Size = new Size(18, 20);
+            lblQuantidadeItens.TabIndex = 18;
+            lblQuantidadeItens.Text = "0";
             // 
-            // label31
+            // lblValorTotal
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(12, 10);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(103, 13);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "Número de Parcelas";
+            lblValorTotal.AutoSize = true;
+            lblValorTotal.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblValorTotal.Location = new Point(746, 407);
+            lblValorTotal.Margin = new Padding(4, 0, 4, 0);
+            lblValorTotal.Name = "lblValorTotal";
+            lblValorTotal.Size = new Size(92, 20);
+            lblValorTotal.TabIndex = 17;
+            lblValorTotal.Text = "R$ 1000,00";
+            // 
+            // lblValorImpostos
+            // 
+            lblValorImpostos.AutoSize = true;
+            lblValorImpostos.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblValorImpostos.Location = new Point(548, 410);
+            lblValorImpostos.Margin = new Padding(4, 0, 4, 0);
+            lblValorImpostos.Name = "lblValorImpostos";
+            lblValorImpostos.Size = new Size(83, 20);
+            lblValorImpostos.TabIndex = 16;
+            lblValorImpostos.Text = "R$ 156,00";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(770, 391);
+            label30.Margin = new Padding(4, 0, 4, 0);
+            label30.Name = "label30";
+            label30.Size = new Size(61, 15);
+            label30.TabIndex = 14;
+            label30.Text = "Valor Total";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label29.Location = new Point(14, 404);
+            label29.Margin = new Padding(4, 0, 4, 0);
+            label29.Name = "label29";
+            label29.Size = new Size(154, 17);
+            label29.TabIndex = 13;
+            label29.Text = "Resumo da Nota Fiscal";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(550, 391);
+            label28.Margin = new Padding(4, 0, 4, 0);
+            label28.Name = "label28";
+            label28.Size = new Size(101, 15);
+            label28.TabIndex = 12;
+            label28.Text = "Valor de impostos";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(340, 391);
+            label27.Margin = new Padding(4, 0, 4, 0);
+            label27.Name = "label27";
+            label27.Size = new Size(76, 15);
+            label27.TabIndex = 11;
+            label27.Text = "Total de itens";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(7, 72);
+            dataGridView1.Margin = new Padding(4, 3, 4, 3);
+            dataGridView1.MultiSelect = false;
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(874, 312);
+            dataGridView1.TabIndex = 10;
+            // 
+            // txtValorTotal
+            // 
+            txtValorTotal.Location = new Point(693, 29);
+            txtValorTotal.Margin = new Padding(4, 3, 4, 3);
+            txtValorTotal.Name = "txtValorTotal";
+            txtValorTotal.Size = new Size(144, 23);
+            txtValorTotal.TabIndex = 9;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(690, 10);
+            label26.Margin = new Padding(4, 0, 4, 0);
+            label26.Name = "label26";
+            label26.Size = new Size(60, 15);
+            label26.TabIndex = 8;
+            label26.Text = "Valor total";
+            // 
+            // txtValorUn
+            // 
+            txtValorUn.Location = new Point(449, 29);
+            txtValorUn.Margin = new Padding(4, 3, 4, 3);
+            txtValorUn.Name = "txtValorUn";
+            txtValorUn.Size = new Size(102, 23);
+            txtValorUn.TabIndex = 7;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(446, 10);
+            label25.Margin = new Padding(4, 0, 4, 0);
+            label25.Name = "label25";
+            label25.Size = new Size(53, 15);
+            label25.TabIndex = 6;
+            label25.Text = "Valor UN";
+            // 
+            // txtDescricao
+            // 
+            txtDescricao.Location = new Point(131, 29);
+            txtDescricao.Margin = new Padding(4, 3, 4, 3);
+            txtDescricao.Name = "txtDescricao";
+            txtDescricao.Size = new Size(306, 23);
+            txtDescricao.TabIndex = 5;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(132, 10);
+            label24.Margin = new Padding(4, 0, 4, 0);
+            label24.Name = "label24";
+            label24.Size = new Size(58, 15);
+            label24.TabIndex = 4;
+            label24.Text = "Descrição";
+            // 
+            // txtQuantidade
+            // 
+            txtQuantidade.Location = new Point(565, 29);
+            txtQuantidade.Margin = new Padding(4, 3, 4, 3);
+            txtQuantidade.Name = "txtQuantidade";
+            txtQuantidade.Size = new Size(116, 23);
+            txtQuantidade.TabIndex = 3;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(561, 10);
+            label23.Margin = new Padding(4, 0, 4, 0);
+            label23.Name = "label23";
+            label23.Size = new Size(69, 15);
+            label23.TabIndex = 2;
+            label23.Text = "Quantidade";
+            // 
+            // txtCodigo
+            // 
+            txtCodigo.Location = new Point(7, 29);
+            txtCodigo.Margin = new Padding(4, 3, 4, 3);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(116, 23);
+            txtCodigo.TabIndex = 1;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(4, 10);
+            label22.Margin = new Padding(4, 0, 4, 0);
+            label22.Name = "label22";
+            label22.Size = new Size(46, 15);
+            label22.TabIndex = 0;
+            label22.Text = "Código";
+            // 
+            // tabDuplicatas
+            // 
+            tabDuplicatas.Controls.Add(txtNumParcelas);
+            tabDuplicatas.Controls.Add(label31);
+            tabDuplicatas.Location = new Point(4, 24);
+            tabDuplicatas.Margin = new Padding(4, 3, 4, 3);
+            tabDuplicatas.Name = "tabDuplicatas";
+            tabDuplicatas.Size = new Size(886, 443);
+            tabDuplicatas.TabIndex = 3;
+            tabDuplicatas.Text = "Duplicatas";
+            tabDuplicatas.UseVisualStyleBackColor = true;
             // 
             // txtNumParcelas
             // 
-            this.txtNumParcelas.Location = new System.Drawing.Point(15, 26);
-            this.txtNumParcelas.Name = "txtNumParcelas";
-            this.txtNumParcelas.Size = new System.Drawing.Size(159, 20);
-            this.txtNumParcelas.TabIndex = 1;
+            txtNumParcelas.Location = new Point(18, 30);
+            txtNumParcelas.Margin = new Padding(4, 3, 4, 3);
+            txtNumParcelas.Name = "txtNumParcelas";
+            txtNumParcelas.Size = new Size(185, 23);
+            txtNumParcelas.TabIndex = 1;
             // 
-            // label32
+            // label31
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(3, 11);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(76, 13);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "Chave da NFe";
+            label31.AutoSize = true;
+            label31.Location = new Point(14, 12);
+            label31.Margin = new Padding(4, 0, 4, 0);
+            label31.Name = "label31";
+            label31.Size = new Size(113, 15);
+            label31.TabIndex = 0;
+            label31.Text = "Número de Parcelas";
             // 
-            // textBox14
+            // tabReferencia
             // 
-            this.textBox14.Location = new System.Drawing.Point(6, 27);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(666, 20);
-            this.textBox14.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(678, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Adicionar";
-            this.button1.UseVisualStyleBackColor = true;
+            tabReferencia.Controls.Add(dataGridView2);
+            tabReferencia.Controls.Add(button1);
+            tabReferencia.Controls.Add(textBox14);
+            tabReferencia.Controls.Add(label32);
+            tabReferencia.Location = new Point(4, 24);
+            tabReferencia.Margin = new Padding(4, 3, 4, 3);
+            tabReferencia.Name = "tabReferencia";
+            tabReferencia.Size = new Size(886, 443);
+            tabReferencia.TabIndex = 4;
+            tabReferencia.Text = "Referência";
+            tabReferencia.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 53);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(747, 326);
-            this.dataGridView2.TabIndex = 3;
+            dataGridView2.AllowUserToDeleteRows = false;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(7, 61);
+            dataGridView2.Margin = new Padding(4, 3, 4, 3);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.ReadOnly = true;
+            dataGridView2.Size = new Size(872, 376);
+            dataGridView2.TabIndex = 3;
             // 
-            // label33
+            // button1
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(3, 9);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(115, 13);
-            this.label33.TabIndex = 0;
-            this.label33.Text = "Número do documento";
+            button1.Location = new Point(791, 29);
+            button1.Margin = new Padding(4, 3, 4, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(88, 27);
+            button1.TabIndex = 2;
+            button1.Text = "Adicionar";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // textBox15
+            // textBox14
             // 
-            this.textBox15.Location = new System.Drawing.Point(6, 25);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(238, 20);
-            this.textBox15.TabIndex = 1;
+            textBox14.Location = new Point(7, 31);
+            textBox14.Margin = new Padding(4, 3, 4, 3);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(776, 23);
+            textBox14.TabIndex = 1;
             // 
-            // button2
+            // label32
             // 
-            this.button2.Location = new System.Drawing.Point(250, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Adicionar";
-            this.button2.UseVisualStyleBackColor = true;
+            label32.AutoSize = true;
+            label32.Location = new Point(4, 13);
+            label32.Margin = new Padding(4, 0, 4, 0);
+            label32.Name = "label32";
+            label32.Size = new Size(80, 15);
+            label32.TabIndex = 0;
+            label32.Text = "Chave da NFe";
+            // 
+            // tabAutXML
+            // 
+            tabAutXML.Controls.Add(dataGridView3);
+            tabAutXML.Controls.Add(button2);
+            tabAutXML.Controls.Add(textBox15);
+            tabAutXML.Controls.Add(label33);
+            tabAutXML.Location = new Point(4, 24);
+            tabAutXML.Margin = new Padding(4, 3, 4, 3);
+            tabAutXML.Name = "tabAutXML";
+            tabAutXML.Size = new Size(886, 443);
+            tabAutXML.TabIndex = 5;
+            tabAutXML.Text = "Autorização para obter XML";
+            tabAutXML.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(6, 51);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(749, 328);
-            this.dataGridView3.TabIndex = 3;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Location = new Point(7, 59);
+            dataGridView3.Margin = new Padding(4, 3, 4, 3);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.Size = new Size(874, 378);
+            dataGridView3.TabIndex = 3;
             // 
-            // label34
+            // button2
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(3, 10);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(107, 13);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "Forma de pagamento";
+            button2.Location = new Point(292, 27);
+            button2.Margin = new Padding(4, 3, 4, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(88, 27);
+            button2.TabIndex = 2;
+            button2.Text = "Adicionar";
+            button2.UseVisualStyleBackColor = true;
             // 
-            // comboBox8
+            // textBox15
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(6, 26);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(304, 21);
-            this.comboBox8.TabIndex = 1;
+            textBox15.Location = new Point(7, 29);
+            textBox15.Margin = new Padding(4, 3, 4, 3);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(277, 23);
+            textBox15.TabIndex = 1;
             // 
-            // label35
+            // label33
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(3, 59);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(102, 13);
-            this.label35.TabIndex = 2;
-            this.label35.Text = "Valor do pagamento";
+            label33.AutoSize = true;
+            label33.Location = new Point(4, 10);
+            label33.Margin = new Padding(4, 0, 4, 0);
+            label33.Name = "label33";
+            label33.Size = new Size(133, 15);
+            label33.TabIndex = 0;
+            label33.Text = "Número do documento";
             // 
-            // textBox16
+            // tabFormaPagamento
             // 
-            this.textBox16.Location = new System.Drawing.Point(6, 75);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(157, 20);
-            this.textBox16.TabIndex = 3;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(179, 59);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(73, 13);
-            this.label36.TabIndex = 4;
-            this.label36.Text = "Valor do troco";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(182, 75);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(128, 20);
-            this.textBox17.TabIndex = 5;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(3, 108);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(122, 13);
-            this.label37.TabIndex = 6;
-            this.label37.Text = "Indicador de pagamento";
+            tabFormaPagamento.Controls.Add(comboBox9);
+            tabFormaPagamento.Controls.Add(label37);
+            tabFormaPagamento.Controls.Add(textBox17);
+            tabFormaPagamento.Controls.Add(label36);
+            tabFormaPagamento.Controls.Add(textBox16);
+            tabFormaPagamento.Controls.Add(label35);
+            tabFormaPagamento.Controls.Add(comboBox8);
+            tabFormaPagamento.Controls.Add(label34);
+            tabFormaPagamento.Location = new Point(4, 24);
+            tabFormaPagamento.Margin = new Padding(4, 3, 4, 3);
+            tabFormaPagamento.Name = "tabFormaPagamento";
+            tabFormaPagamento.Size = new Size(886, 443);
+            tabFormaPagamento.TabIndex = 6;
+            tabFormaPagamento.Text = "Forma de pagamento";
+            tabFormaPagamento.UseVisualStyleBackColor = true;
             // 
             // comboBox9
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(6, 124);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(157, 21);
-            this.comboBox9.TabIndex = 7;
-            this.comboBox9.Text = "Nenhum";
+            comboBox9.FormattingEnabled = true;
+            comboBox9.Location = new Point(7, 143);
+            comboBox9.Margin = new Padding(4, 3, 4, 3);
+            comboBox9.Name = "comboBox9";
+            comboBox9.Size = new Size(182, 23);
+            comboBox9.TabIndex = 7;
+            comboBox9.Text = "Nenhum";
             // 
-            // label38
+            // label37
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(3, 9);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(104, 13);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "Valor Total BC ICMS";
+            label37.AutoSize = true;
+            label37.Location = new Point(4, 125);
+            label37.Margin = new Padding(4, 0, 4, 0);
+            label37.Name = "label37";
+            label37.Size = new Size(137, 15);
+            label37.TabIndex = 6;
+            label37.Text = "Indicador de pagamento";
             // 
-            // txtBcIcms
+            // textBox17
             // 
-            this.txtBcIcms.Location = new System.Drawing.Point(7, 25);
-            this.txtBcIcms.Name = "txtBcIcms";
-            this.txtBcIcms.Size = new System.Drawing.Size(161, 20);
-            this.txtBcIcms.TabIndex = 1;
+            textBox17.Location = new Point(212, 87);
+            textBox17.Margin = new Padding(4, 3, 4, 3);
+            textBox17.Name = "textBox17";
+            textBox17.Size = new Size(149, 23);
+            textBox17.TabIndex = 5;
             // 
-            // label39
+            // label36
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(181, 9);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(87, 13);
-            this.label39.TabIndex = 2;
-            this.label39.Text = "Valor Total ICMS";
+            label36.AutoSize = true;
+            label36.Location = new Point(209, 68);
+            label36.Margin = new Padding(4, 0, 4, 0);
+            label36.Name = "label36";
+            label36.Size = new Size(81, 15);
+            label36.TabIndex = 4;
+            label36.Text = "Valor do troco";
             // 
-            // txtTotIcms
+            // textBox16
             // 
-            this.txtTotIcms.Location = new System.Drawing.Point(184, 25);
-            this.txtTotIcms.Name = "txtTotIcms";
-            this.txtTotIcms.Size = new System.Drawing.Size(100, 20);
-            this.txtTotIcms.TabIndex = 3;
+            textBox16.Location = new Point(7, 87);
+            textBox16.Margin = new Padding(4, 3, 4, 3);
+            textBox16.Name = "textBox16";
+            textBox16.Size = new Size(182, 23);
+            textBox16.TabIndex = 3;
             // 
-            // label40
+            // label35
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(301, 9);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(121, 13);
-            this.label40.TabIndex = 4;
-            this.label40.Text = "Valor Total BC ICMS ST";
+            label35.AutoSize = true;
+            label35.Location = new Point(4, 68);
+            label35.Margin = new Padding(4, 0, 4, 0);
+            label35.Name = "label35";
+            label35.Size = new Size(114, 15);
+            label35.TabIndex = 2;
+            label35.Text = "Valor do pagamento";
             // 
-            // txtBcIcmsSt
+            // comboBox8
             // 
-            this.txtBcIcmsSt.Location = new System.Drawing.Point(304, 25);
-            this.txtBcIcmsSt.Name = "txtBcIcmsSt";
-            this.txtBcIcmsSt.Size = new System.Drawing.Size(100, 20);
-            this.txtBcIcmsSt.TabIndex = 5;
+            comboBox8.FormattingEnabled = true;
+            comboBox8.Location = new Point(7, 30);
+            comboBox8.Margin = new Padding(4, 3, 4, 3);
+            comboBox8.Name = "comboBox8";
+            comboBox8.Size = new Size(354, 23);
+            comboBox8.TabIndex = 1;
             // 
-            // label41
+            // label34
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(433, 9);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(104, 13);
-            this.label41.TabIndex = 6;
-            this.label41.Text = "Valor Total ICMS ST";
+            label34.AutoSize = true;
+            label34.Location = new Point(4, 12);
+            label34.Margin = new Padding(4, 0, 4, 0);
+            label34.Name = "label34";
+            label34.Size = new Size(121, 15);
+            label34.TabIndex = 0;
+            label34.Text = "Forma de pagamento";
             // 
-            // txtTotIcmsSt
+            // tabTotais
             // 
-            this.txtTotIcmsSt.Location = new System.Drawing.Point(436, 25);
-            this.txtTotIcmsSt.Name = "txtTotIcmsSt";
-            this.txtTotIcmsSt.Size = new System.Drawing.Size(100, 20);
-            this.txtTotIcmsSt.TabIndex = 7;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(4, 60);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(164, 13);
-            this.label42.TabIndex = 8;
-            this.label42.Text = "Valor Total de Produtos/Serviços";
-            // 
-            // txtTotProdServ
-            // 
-            this.txtTotProdServ.Location = new System.Drawing.Point(7, 76);
-            this.txtTotProdServ.Name = "txtTotProdServ";
-            this.txtTotProdServ.Size = new System.Drawing.Size(161, 20);
-            this.txtTotProdServ.TabIndex = 9;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(181, 60);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(85, 13);
-            this.label43.TabIndex = 10;
-            this.label43.Text = "Valor Total Frete";
-            // 
-            // txtTotFrete
-            // 
-            this.txtTotFrete.Location = new System.Drawing.Point(184, 75);
-            this.txtTotFrete.Name = "txtTotFrete";
-            this.txtTotFrete.Size = new System.Drawing.Size(100, 20);
-            this.txtTotFrete.TabIndex = 11;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(301, 60);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(107, 13);
-            this.label44.TabIndex = 12;
-            this.label44.Text = "Valor Total Desconto";
-            // 
-            // txtTotDesc
-            // 
-            this.txtTotDesc.Location = new System.Drawing.Point(304, 76);
-            this.txtTotDesc.Name = "txtTotDesc";
-            this.txtTotDesc.Size = new System.Drawing.Size(100, 20);
-            this.txtTotDesc.TabIndex = 13;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(4, 117);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(74, 13);
-            this.label45.TabIndex = 14;
-            this.label45.Text = "Valor Total IPI";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(184, 117);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(78, 13);
-            this.label46.TabIndex = 15;
-            this.label46.Text = "Valor Total PIS";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(304, 117);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(100, 13);
-            this.label47.TabIndex = 16;
-            this.label47.Text = "Valor Total COFINS";
-            // 
-            // txtTotIpi
-            // 
-            this.txtTotIpi.Location = new System.Drawing.Point(7, 133);
-            this.txtTotIpi.Name = "txtTotIpi";
-            this.txtTotIpi.Size = new System.Drawing.Size(161, 20);
-            this.txtTotIpi.TabIndex = 17;
-            // 
-            // txtTotPis
-            // 
-            this.txtTotPis.Location = new System.Drawing.Point(187, 134);
-            this.txtTotPis.Name = "txtTotPis";
-            this.txtTotPis.Size = new System.Drawing.Size(100, 20);
-            this.txtTotPis.TabIndex = 18;
-            // 
-            // txtTotCofins
-            // 
-            this.txtTotCofins.Location = new System.Drawing.Point(308, 134);
-            this.txtTotCofins.Name = "txtTotCofins";
-            this.txtTotCofins.Size = new System.Drawing.Size(100, 20);
-            this.txtTotCofins.TabIndex = 19;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(4, 169);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(81, 13);
-            this.label48.TabIndex = 20;
-            this.label48.Text = "Valor Total NFe";
+            tabTotais.Controls.Add(txtTotalNFe);
+            tabTotais.Controls.Add(label48);
+            tabTotais.Controls.Add(txtTotCofins);
+            tabTotais.Controls.Add(txtTotPis);
+            tabTotais.Controls.Add(txtTotIpi);
+            tabTotais.Controls.Add(label47);
+            tabTotais.Controls.Add(label46);
+            tabTotais.Controls.Add(label45);
+            tabTotais.Controls.Add(txtTotDesc);
+            tabTotais.Controls.Add(label44);
+            tabTotais.Controls.Add(txtTotFrete);
+            tabTotais.Controls.Add(label43);
+            tabTotais.Controls.Add(txtTotProdServ);
+            tabTotais.Controls.Add(label42);
+            tabTotais.Controls.Add(txtTotIcmsSt);
+            tabTotais.Controls.Add(label41);
+            tabTotais.Controls.Add(txtBcIcmsSt);
+            tabTotais.Controls.Add(label40);
+            tabTotais.Controls.Add(txtTotIcms);
+            tabTotais.Controls.Add(label39);
+            tabTotais.Controls.Add(txtBcIcms);
+            tabTotais.Controls.Add(label38);
+            tabTotais.Location = new Point(4, 24);
+            tabTotais.Margin = new Padding(4, 3, 4, 3);
+            tabTotais.Name = "tabTotais";
+            tabTotais.Size = new Size(886, 443);
+            tabTotais.TabIndex = 7;
+            tabTotais.Text = "Totais";
+            tabTotais.UseVisualStyleBackColor = true;
             // 
             // txtTotalNFe
             // 
-            this.txtTotalNFe.Location = new System.Drawing.Point(7, 185);
-            this.txtTotalNFe.Name = "txtTotalNFe";
-            this.txtTotalNFe.Size = new System.Drawing.Size(161, 20);
-            this.txtTotalNFe.TabIndex = 21;
+            txtTotalNFe.Location = new Point(8, 213);
+            txtTotalNFe.Margin = new Padding(4, 3, 4, 3);
+            txtTotalNFe.Name = "txtTotalNFe";
+            txtTotalNFe.Size = new Size(187, 23);
+            txtTotalNFe.TabIndex = 21;
             // 
-            // btnSalvareTransmitir
+            // label48
             // 
-            this.btnSalvareTransmitir.Location = new System.Drawing.Point(652, 422);
-            this.btnSalvareTransmitir.Name = "btnSalvareTransmitir";
-            this.btnSalvareTransmitir.Size = new System.Drawing.Size(122, 23);
-            this.btnSalvareTransmitir.TabIndex = 1;
-            this.btnSalvareTransmitir.Text = "Salvar e Transmitir";
-            this.btnSalvareTransmitir.UseVisualStyleBackColor = true;
+            label48.AutoSize = true;
+            label48.Location = new Point(5, 195);
+            label48.Margin = new Padding(4, 0, 4, 0);
+            label48.Name = "label48";
+            label48.Size = new Size(85, 15);
+            label48.TabIndex = 20;
+            label48.Text = "Valor Total NFe";
+            // 
+            // txtTotCofins
+            // 
+            txtTotCofins.Location = new Point(359, 155);
+            txtTotCofins.Margin = new Padding(4, 3, 4, 3);
+            txtTotCofins.Name = "txtTotCofins";
+            txtTotCofins.Size = new Size(116, 23);
+            txtTotCofins.TabIndex = 19;
+            // 
+            // txtTotPis
+            // 
+            txtTotPis.Location = new Point(218, 155);
+            txtTotPis.Margin = new Padding(4, 3, 4, 3);
+            txtTotPis.Name = "txtTotPis";
+            txtTotPis.Size = new Size(116, 23);
+            txtTotPis.TabIndex = 18;
+            // 
+            // txtTotIpi
+            // 
+            txtTotIpi.Location = new Point(8, 153);
+            txtTotIpi.Margin = new Padding(4, 3, 4, 3);
+            txtTotIpi.Name = "txtTotIpi";
+            txtTotIpi.Size = new Size(187, 23);
+            txtTotIpi.TabIndex = 17;
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Location = new Point(355, 135);
+            label47.Margin = new Padding(4, 0, 4, 0);
+            label47.Name = "label47";
+            label47.Size = new Size(105, 15);
+            label47.TabIndex = 16;
+            label47.Text = "Valor Total COFINS";
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Location = new Point(215, 135);
+            label46.Margin = new Padding(4, 0, 4, 0);
+            label46.Name = "label46";
+            label46.Size = new Size(80, 15);
+            label46.TabIndex = 15;
+            label46.Text = "Valor Total PIS";
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Location = new Point(5, 135);
+            label45.Margin = new Padding(4, 0, 4, 0);
+            label45.Name = "label45";
+            label45.Size = new Size(77, 15);
+            label45.TabIndex = 14;
+            label45.Text = "Valor Total IPI";
+            // 
+            // txtTotDesc
+            // 
+            txtTotDesc.Location = new Point(355, 88);
+            txtTotDesc.Margin = new Padding(4, 3, 4, 3);
+            txtTotDesc.Name = "txtTotDesc";
+            txtTotDesc.Size = new Size(116, 23);
+            txtTotDesc.TabIndex = 13;
+            // 
+            // label44
+            // 
+            label44.AutoSize = true;
+            label44.Location = new Point(351, 69);
+            label44.Margin = new Padding(4, 0, 4, 0);
+            label44.Name = "label44";
+            label44.Size = new Size(114, 15);
+            label44.TabIndex = 12;
+            label44.Text = "Valor Total Desconto";
+            // 
+            // txtTotFrete
+            // 
+            txtTotFrete.Location = new Point(215, 87);
+            txtTotFrete.Margin = new Padding(4, 3, 4, 3);
+            txtTotFrete.Name = "txtTotFrete";
+            txtTotFrete.Size = new Size(116, 23);
+            txtTotFrete.TabIndex = 11;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Location = new Point(211, 69);
+            label43.Margin = new Padding(4, 0, 4, 0);
+            label43.Name = "label43";
+            label43.Size = new Size(90, 15);
+            label43.TabIndex = 10;
+            label43.Text = "Valor Total Frete";
+            // 
+            // txtTotProdServ
+            // 
+            txtTotProdServ.Location = new Point(8, 88);
+            txtTotProdServ.Margin = new Padding(4, 3, 4, 3);
+            txtTotProdServ.Name = "txtTotProdServ";
+            txtTotProdServ.Size = new Size(187, 23);
+            txtTotProdServ.TabIndex = 9;
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Location = new Point(5, 69);
+            label42.Margin = new Padding(4, 0, 4, 0);
+            label42.Name = "label42";
+            label42.Size = new Size(176, 15);
+            label42.TabIndex = 8;
+            label42.Text = "Valor Total de Produtos/Serviços";
+            // 
+            // txtTotIcmsSt
+            // 
+            txtTotIcmsSt.Location = new Point(509, 29);
+            txtTotIcmsSt.Margin = new Padding(4, 3, 4, 3);
+            txtTotIcmsSt.Name = "txtTotIcmsSt";
+            txtTotIcmsSt.Size = new Size(116, 23);
+            txtTotIcmsSt.TabIndex = 7;
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Location = new Point(505, 10);
+            label41.Margin = new Padding(4, 0, 4, 0);
+            label41.Name = "label41";
+            label41.Size = new Size(107, 15);
+            label41.TabIndex = 6;
+            label41.Text = "Valor Total ICMS ST";
+            // 
+            // txtBcIcmsSt
+            // 
+            txtBcIcmsSt.Location = new Point(355, 29);
+            txtBcIcmsSt.Margin = new Padding(4, 3, 4, 3);
+            txtBcIcmsSt.Name = "txtBcIcmsSt";
+            txtBcIcmsSt.Size = new Size(116, 23);
+            txtBcIcmsSt.TabIndex = 5;
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Location = new Point(351, 10);
+            label40.Margin = new Padding(4, 0, 4, 0);
+            label40.Name = "label40";
+            label40.Size = new Size(125, 15);
+            label40.TabIndex = 4;
+            label40.Text = "Valor Total BC ICMS ST";
+            // 
+            // txtTotIcms
+            // 
+            txtTotIcms.Location = new Point(215, 29);
+            txtTotIcms.Margin = new Padding(4, 3, 4, 3);
+            txtTotIcms.Name = "txtTotIcms";
+            txtTotIcms.Size = new Size(116, 23);
+            txtTotIcms.TabIndex = 3;
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(211, 10);
+            label39.Margin = new Padding(4, 0, 4, 0);
+            label39.Name = "label39";
+            label39.Size = new Size(92, 15);
+            label39.TabIndex = 2;
+            label39.Text = "Valor Total ICMS";
+            // 
+            // txtBcIcms
+            // 
+            txtBcIcms.Location = new Point(8, 29);
+            txtBcIcms.Margin = new Padding(4, 3, 4, 3);
+            txtBcIcms.Name = "txtBcIcms";
+            txtBcIcms.Size = new Size(187, 23);
+            txtBcIcms.TabIndex = 1;
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Location = new Point(4, 10);
+            label38.Margin = new Padding(4, 0, 4, 0);
+            label38.Name = "label38";
+            label38.Size = new Size(110, 15);
+            label38.TabIndex = 0;
+            label38.Text = "Valor Total BC ICMS";
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Location = new Point(691, 487);
+            btnSalvar.Margin = new Padding(4, 3, 4, 3);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(103, 27);
+            btnSalvar.TabIndex = 1;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(571, 422);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 2;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Location = new Point(595, 487);
+            btnCancelar.Margin = new Padding(4, 3, 4, 3);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(88, 27);
+            btnCancelar.TabIndex = 2;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnTransmitir
+            // 
+            btnTransmitir.Location = new Point(801, 487);
+            btnTransmitir.Name = "btnTransmitir";
+            btnTransmitir.Size = new Size(103, 27);
+            btnTransmitir.TabIndex = 3;
+            btnTransmitir.Text = "Transmitir";
+            btnTransmitir.UseVisualStyleBackColor = true;
+            btnTransmitir.Click += btnTransmitir_Click;
             // 
             // Digitacao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 460);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnSalvareTransmitir);
-            this.Controls.Add(this.tabControl1);
-            this.Name = "Digitacao";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Digitação de NFe";
-            this.tabControl1.ResumeLayout(false);
-            this.tabCabecalho.ResumeLayout(false);
-            this.tabCabecalho.PerformLayout();
-            this.tabTransporte.ResumeLayout(false);
-            this.tabTransporte.PerformLayout();
-            this.tabProdutos.ResumeLayout(false);
-            this.tabProdutos.PerformLayout();
-            this.tabDuplicatas.ResumeLayout(false);
-            this.tabDuplicatas.PerformLayout();
-            this.tabReferencia.ResumeLayout(false);
-            this.tabReferencia.PerformLayout();
-            this.tabAutXML.ResumeLayout(false);
-            this.tabAutXML.PerformLayout();
-            this.tabFormaPagamento.ResumeLayout(false);
-            this.tabFormaPagamento.PerformLayout();
-            this.tabTotais.ResumeLayout(false);
-            this.tabTotais.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(933, 531);
+            Controls.Add(btnTransmitir);
+            Controls.Add(btnCancelar);
+            Controls.Add(btnSalvar);
+            Controls.Add(tabControl1);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "Digitacao";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Digitação de NFe";
+            tabControl1.ResumeLayout(false);
+            tabCabecalho.ResumeLayout(false);
+            tabCabecalho.PerformLayout();
+            tabTransporte.ResumeLayout(false);
+            tabTransporte.PerformLayout();
+            tabProdutos.ResumeLayout(false);
+            tabProdutos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabDuplicatas.ResumeLayout(false);
+            tabDuplicatas.PerformLayout();
+            tabReferencia.ResumeLayout(false);
+            tabReferencia.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            tabAutXML.ResumeLayout(false);
+            tabAutXML.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            tabFormaPagamento.ResumeLayout(false);
+            tabFormaPagamento.PerformLayout();
+            tabTotais.ResumeLayout(false);
+            tabTotais.PerformLayout();
+            ResumeLayout(false);
 
         }
 
@@ -1340,7 +1464,8 @@
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.TextBox txtTotalNFe;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Button btnSalvareTransmitir;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCancelar;
+        private Button btnTransmitir;
     }
 }

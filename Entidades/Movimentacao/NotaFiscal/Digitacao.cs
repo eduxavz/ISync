@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISync.Servicos.NotaFiscal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace ISync.Forms.NotaFiscal
         public Digitacao()
         {
             InitializeComponent();
+        }
+
+        private void btnTransmitir_Click(object sender, EventArgs e)
+        {
+            NFeService servico = new();
+            _ = servico.ObterNfeValidada(DFe.Classes.Flags.VersaoServico.Versao400, DFe.Classes.Flags.ModeloDocumento.NFe, 0);
         }
     }
 }
