@@ -20,4 +20,8 @@
     <PackageReference Include="Zeus.Net.NFe.NFCe" Version="2025.7.28.1818" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Forms\Movimentacao\" />
+  </ItemGroup>
+
 </Project>
