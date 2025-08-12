@@ -10,7 +10,7 @@ namespace ISync.Core.Contexto
         public DbSet<EmpresaDado> EmpresaDados { get; set; }
         public DbSet<NaturezaOperacao> NaturezaOperacao { get; set; }
         public DbSet<ProdutoDado> ProdutoDados { get; set; }
-        public DbSet<Parceiro> ProdutoImpostos { get; set; }
+        public DbSet<Imposto> ProdutoImpostos { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
