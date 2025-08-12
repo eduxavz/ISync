@@ -65,7 +65,7 @@ namespace ISync.Core.Contexto
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer("Server=(localdb)\\ISyncBD;Integrated Security=true;Database=db_isync;");
+            options.UseSqlServer("Data Source=(localdb)\\MSSQLLOCALDB;Initial Catalog=dbisync_fit;Integrated Security=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
